@@ -1,0 +1,24 @@
+/* Gotham Font Family */
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/gotham/icielgothammediumregular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/gotham/iCielGothamBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/gotham/icielgothamultraregular.woff') format('woff');
+  font-display: swap;
+}
