@@ -1,20 +1,12 @@
 import Link from "next/link";
 import React from "react";
 
-function Hero() {
+function hero() {
   return (
     <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
       {/* Background video */}
       <div className="absolute inset-0 z-0">
-        <video
-          className="w-full h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="https://cdn.eva.gg/videos/eva-bg-video.webm" type="video/webm" />
-        </video>
+        <img src="https://www.eva.gg/_next/static/media/bg.3ef46437.webp" alt="Cyber Bar Interior" className="w-full h-full object-cover" />
         {/* Gradient overlay */}
         <div 
           className="absolute inset-0" 
@@ -39,4 +31,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default hero;

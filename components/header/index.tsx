@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 const index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -175,24 +175,24 @@ const index = () => {
               ☰
             </button>
             <div className="hidden md:flex space-x-8">
-              <a
+              <Link
                 href="/jeux-vr"
                 className="text-white hover:text-gray-300 transition-colors"
               >
                 Jeux VR
-              </a>
-              <a
-                href="#bar"
+              </Link>
+              <Link
+                href="/bar"
                 className="text-white hover:text-gray-300 transition-colors"
               >
                 Bar et Fléchettes
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#evenements"
                 className="text-white hover:text-gray-300 transition-colors"
               >
                 Événements
-              </a>
+              </Link>
             </div>
           </div>
 
