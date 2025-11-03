@@ -7,7 +7,7 @@ function events() {
         <div className="text-center mb-16">
           <h4 className="text-3xl md:text-4xl font-black mb-6">
             <span className="text-black">CÉLÉBREZ </span>
-            <span className="text-[#5B3FFF]">L'OCCASION</span>
+            <span className="text-[#fc9937]">L'OCCASION</span>
           </h4>
           <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
             Une arène rien que pour vous. Privatisez EVA et transformez votre
@@ -31,7 +31,7 @@ function events() {
               <p className="text-gray-200 text-sm mb-6 text-center">
                 Soufflez vos bougies chez EVA pour fêter votre level up !
               </p>
-              <button className="w-full py-3 bg-[#5B3FFF] hover:bg-[#4B2FEF] text-white font-bold rounded-lg transition-colors">
+              <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
               </button>
             </div>
@@ -53,7 +53,7 @@ function events() {
                 Sessions de jeu et tournées de shots : ce qui se passe chez EVA
                 reste chez EVA...
               </p>
-              <button className="w-full py-3 bg-[#5B3FFF] hover:bg-[#4B2FEF] text-white font-bold rounded-lg transition-colors">
+              <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
               </button>
             </div>
@@ -75,7 +75,7 @@ function events() {
                 Un temps pour les PowerPoints, un temps pour se défouler en
                 équipe.
               </p>
-              <button className="w-full py-3 bg-[#5B3FFF] hover:bg-[#4B2FEF] text-white font-bold rounded-lg transition-colors">
+              <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
               </button>
             </div>

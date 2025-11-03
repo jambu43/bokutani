@@ -19,7 +19,7 @@ function hero() {
         <div 
           className="absolute inset-0" 
           style={{
-            background: 'linear-gradient(180deg,#4b11e2,rgba(75,17,226,.02))'
+            background: 'linear-gradient(180deg,#fc9937,rgba(75,17,226,.02))'
           }}
         ></div>
       </div>

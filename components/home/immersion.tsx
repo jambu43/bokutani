@@ -7,7 +7,7 @@ function immersion() {
       <div className="container mx-auto px-6 relative z-10">
         {/* Titre principal */}
         <div className="text-center mb-12 relative -top-20">
-          <h2 className="text-2xl md:text-2xl lg:text-4xl font-extrabold text-blue-500 mb-8 leading-tight font-gotham">
+          <h2 className="text-2xl md:text-2xl lg:text-4xl font-extrabold text-[#fc9937] mb-8 leading-tight font-gotham">
             UNE IMMERSION TOTALE
             <br />
             <span className="text-4xl md:text-4xl lg:text-4xl text-black">EN RÉALITÉ VIRTUELLE</span>

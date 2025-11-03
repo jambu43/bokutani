@@ -38,7 +38,7 @@ const index = () => {
                 <ul className="space-y-6">
                   <li>
                     <a
-                      href="#"
+                      href="/jeux-vr"
                       className="text-black font-bold text-lg uppercase flex items-center justify-between hover:text-gray-600 transition-colors"
                     >
                       JEUX EN RÉALITÉ VIRTUELLE
@@ -176,7 +176,7 @@ const index = () => {
             </button>
             <div className="hidden md:flex space-x-8">
               <a
-                href="#jeux"
+                href="/jeux-vr"
                 className="text-white hover:text-gray-300 transition-colors"
               >
                 Jeux VR

@@ -7,7 +7,7 @@ function activity() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h4 className="text-2xl md:text-4xl lg:text-4xl font-black mb-6">
-              <span className="text-[#5B3FFF]">APPUYEZ</span> <span className="text-black">SUR LA DÉTENTE</span>
+              <span className="text-[#fc9937]">APPUYEZ</span> <span className="text-black">SUR LA DÉTENTE</span>
             </h4>
             <p className="text-gray-700 text-md leading-relaxed max-w-3xl mx-auto font-light">
               Partagez un verre ou un plat, puis défiez vos amis aux fléchettes en réalité augmentée. Afterworks, happy
@@ -31,7 +31,7 @@ function activity() {
                 <p className="text-gray-200 text-sm mb-6 text-center font-light">
                   Les fléchettes réinventées avec nos cibles interactives. Ambiance garantie !
                 </p>
-                <button className="w-full py-2 bg-[#5B3FFF] hover:bg-[#4B2FEF] text-white font-light rounded-lg transition-colors text-sm">
+                <button className="w-full py-2 bg-[#fc9937] hover:bg-[#fc9937] text-white font-light rounded-lg transition-colors text-sm">
                   EN SAVOIR PLUS
                 </button>
               </div>
@@ -50,7 +50,7 @@ function activity() {
               <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
                 <h5 className="text-2xl md:text-2xl lg:text-2xl font-black mb-3 text-center">CYBER BAR</h5>
                 <p className="text-gray-200 text-sm mb-6 text-center font-light">L'endroit idéal pour trinquer et partager un bon moment.</p>
-                <button className="w-full py-2 bg-[#5B3FFF] hover:bg-[#4B2FEF] text-white font-light rounded-lg transition-colors text-sm">
+                <button className="w-full py-2 bg-[#fc9937] hover:bg-[#fc9937] text-white font-light rounded-lg transition-colors text-sm">
                   EN SAVOIR PLUS
                 </button>
               </div>
@@ -71,7 +71,7 @@ function activity() {
                 <p className="text-gray-200 text-sm mb-6 text-center font-light">
                   Dans les salles EVA, on se régale aussi en dehors du terrain.
                 </p>
-                <button className="w-full py-2 bg-[#5B3FFF] hover:bg-[#4B2FEF] text-white font-light rounded-lg transition-colors text-sm">
+                <button className="w-full py-2 bg-[#fc9937] hover:bg-[#fc9937] text-white font-light rounded-lg transition-colors text-sm">
                   EN SAVOIR PLUS
                 </button>
               </div>
