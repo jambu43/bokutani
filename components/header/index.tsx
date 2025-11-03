@@ -16,7 +16,7 @@ const index = () => {
           ></div>
 
           {/* Menu Sidebar */}
-          <div className="absolute left-0 top-0 h-full w-80 bg-white rounded-r-2xl shadow-2xl">
+          <div className="absolute left-0 top-0 h-full w-100 bg-white rounded-r-2xl shadow-2xl">
             <div className="p-6 h-full flex flex-col">
               {/* Close Button */}
               <div className="flex justify-start mb-6">
@@ -108,7 +108,7 @@ const index = () => {
                       href="#"
                       className="text-black text-sm hover:text-gray-600 transition-colors"
                     >
-                      EVA Competitive
+                      Bokutani Competitive
                     </a>
                   </li>
                   <li>
@@ -116,7 +116,7 @@ const index = () => {
                       href="#"
                       className="text-black text-sm hover:text-gray-600 transition-colors"
                     >
-                      EVA Shop
+                      Bokutani Shop
                     </a>
                   </li>
                   <li>
@@ -124,7 +124,7 @@ const index = () => {
                       href="#"
                       className="text-black text-sm hover:text-gray-600 transition-colors"
                     >
-                      EVA Blog
+                      Bokutani Blog
                     </a>
                   </li>
                   <li>
@@ -148,18 +148,15 @@ const index = () => {
 
               {/* Language and Country Selector */}
               <div className="flex items-center space-x-3">
-                <button className="flex items-center space-x-2 px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-                  <span className="text-lg">🌐</span>
-                  <span className="text-black text-sm">FRANÇAIS</span>
+                <button className="flex items-center space-x-2 px-2 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                  <span className="text-xs">🌐</span>
+                  <span className="text-black text-xs">FRANÇAIS</span>
                   <span className="text-gray-400">▼</span>
                 </button>
-                <button className="flex items-center space-x-2 px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-                  <span className="text-lg">🇫🇷</span>
-                  <span className="text-black text-sm">FRANCE</span>
+                <button className="flex items-center space-x-2 px-2 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                  <span className="text-xs">🇫🇷</span>
+                  <span className="text-black text-xs">FRANCE</span>
                   <span className="text-gray-400">▼</span>
-                </button>
-                <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold text-sm py-2 px-4 rounded-lg transition-colors">
-                  APPLIQUER
                 </button>
               </div>
             </div>
@@ -199,7 +196,7 @@ const index = () => {
             </div>
           </div>
 
-          <Image src="/logo-bokutani.svg" alt="EVA" width={200} height={200} />
+          <Image src="/logo-bokutani.svg" alt="Bokutani" width={200} height={200} />
 
           {/* Right side - User and CTA */}
           <div className="flex items-center space-x-4">
