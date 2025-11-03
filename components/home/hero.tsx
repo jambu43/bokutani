@@ -3,7 +3,7 @@ import React from "react";
 
 function hero() {
   return (
-    <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
       {/* Background video */}
       <div className="absolute inset-0 z-0">
         <video
