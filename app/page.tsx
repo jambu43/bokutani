@@ -24,7 +24,7 @@ export default function Home() {
       <Events />
       <EsportVideo />
       <News />
-      <Community />
+      {/* <Community /> */}
       <Faq />
     </div>
   );

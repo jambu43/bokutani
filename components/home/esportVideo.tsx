@@ -7,8 +7,8 @@ function esportVideo() {
         {/* Header */}
         <div className="text-center mb-12">
           <h4 className="text-3xl md:text-4xl font-black mb-6">
-            <span className="text-[#fc9937]">LE FUTUR DE</span> {" "}
-            <span className="text-white">L'ESPORT</span>
+            <span className="text-[#fc9937]">LE FUTUR DU</span> {" "}
+            <span className="text-white">VR EN RDC</span>
           </h4>
           <p className="text-white text-lg leading-relaxed max-w-3xl mx-auto mb-8">
             Facile à prendre en main, difficile à maîtriser. Bokutani réinvente l'esport en mêlant performance physique et gaming. Suivez nos compétitions !

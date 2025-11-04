@@ -7,13 +7,13 @@ function GameHero() {
     {/* Background Image with Overlay */}
     <div className="absolute inset-0">
       <img src="https://app.eva.gg/assets/after-h-battle-arena-fhd-min-BXpFo7Is.webp" alt="Space Background" className="w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#1a0a3e] via-[#2d1654]/80 to-black/90" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#fc9937] via-[#2d1654]/80 to-black/90" />
     </div>
 
     {/* Hero Content */}
     <div className="relative z-10 text-center px-4">
       <div className="mb-8">
-        <img src="/after-h-battle-arena-futuristic-game-logo-white-te.jpg" alt="After-H Battle Arena Logo" className="mx-auto h-48 w-auto" />
+        <img src="https://app.eva.gg/assets/200518_Logo-After-H_BATTLE-ARENA@2x-BFpq5LN8.png" alt="After-H Battle Arena Logo" className="mx-auto h-48 w-auto" />
       </div>
       <p className="text-white text-sm tracking-[0.3em] mb-8">Bokutani ORIGINAL GAME</p>
       <Button className="bg-white text-[#fc9937] hover:bg-white/90 font-bold text-xs px-3 py-2 rounded-full">

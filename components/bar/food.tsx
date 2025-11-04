@@ -20,21 +20,21 @@ function Food() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="https://www.BOKUTANI.gg/_next/static/media/food2.7ac1dd52.webp"
+              src="https://i.guim.co.uk/img/media/545e9effb5e717ea28f7d639571f081d9e3d9dc4/0_45_7952_4774/master/7952.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=95ea8f8e1d6dfb531a9827884dd4a016"
               alt="Gourmet Sandwich"
               className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
             />
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="https://www.BOKUTANI.gg/_next/static/media/food3.78304eef.webp"
+              src="https://images.urbania.ca/image/2024-05-08/72271-042351-filters(large).jpg"
               alt="Mini Burgers"
               className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
             />
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="https://www.BOKUTANI.gg/_next/static/media/food1.74276679.webp"
+              src="https://images.urbania.ca/image/2024-05-08/72273-042352-filters(large).jpg"
               alt="Pizza"
               className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
             />

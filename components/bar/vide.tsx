@@ -18,7 +18,7 @@ function Vide() {
       {/* Event Image */}
       <div className="rounded-3xl overflow-hidden shadow-2xl">
         <img
-          src="https://www.BOKUTANI.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnight.5f347def.webp&w=1920&q=75"
+          src="https://chacha-kinshasa.com/wp-content/uploads/2024/11/454400519_18046966747895497_4886546806974536868_n.jpg"
           alt="Evening Event"
           className="w-full h-auto object-cover"
         />

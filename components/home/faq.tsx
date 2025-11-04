@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 function faq() {
   return (
-    <section className="bg-white py-20 px-4">
+    <section className="bg-gray-50 py-20 px-4">
       <div className="max-w-4xl mx-auto">
       {/* Header */}
       <div className="text-center mb-12">

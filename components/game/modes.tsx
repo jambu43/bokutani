@@ -21,24 +21,22 @@ function modes() {
           {/* Skirmish Mode */}
           <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
             
-            <img src="https://app.eva.gg/assets/mode-SKIRMISH-visual-C9-JQQDM.webp" alt="Skirmish" className="w-full h-[60%] object-cover" />
+            <img src="https://movie-power.com/wp-content/uploads/2022/10/Banner-8.jpg" alt="Skirmish" className="w-full h-[60%] object-cover" />
             <div className="p-6">
-              <h4 className="text-white text-xl font-black mb-3">SKIRMISH</h4>
+              <h4 className="text-white text-xl font-black mb-3">YRD-00008 VR Super Armor</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Mode tactique par équipe. Éliminez tous les adversaires pour remporter la manche. Communication et
-                stratégie sont essentielles.
+               Simulateur de cinéma commercial à réalité virtuelle (9D VR) à 6 places fabriqué
               </p>
             </div>
           </div>
 
           {/* Domination Mode */}
           <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
-            <img src="https://app.eva.gg/assets/mode-DOM-visual-B1mr7rBo.webp" alt="Domination" className="w-full h-[60%] object-cover" />
+            <img src="https://movie-power.com/wp-content/uploads/2022/10/Banner-2.jpg" alt="Domination" className="w-full h-[60%] object-cover" />
             <div className="p-6">
-              <h4 className="text-white text-xl font-black mb-3">DOMINATION</h4>
+              <h4 className="text-white text-xl font-black mb-3">YR31-013 VR SPACE WHEEL MANUAL</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Capturez et maintenez les points stratégiques. Plus vous contrôlez de zones, plus vite vous gagnez
-                des points.
+                Capturez et maintenez les points stratégiques. Plus vous contrôlez de zones.
               </p>
             </div>
           </div>
@@ -47,17 +45,17 @@ function modes() {
           <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
             <img src="https://app.eva.gg/assets/mode-FFA-visual-9f1MHAF1.webp" alt="Free For All" className="w-full h-[60%] object-cover" />
             <div className="p-6">
-              <h4 className="text-white text-xl font-black mb-3">FREE FOR ALL</h4>
+              <h4 className="text-white text-xl font-black mb-3">YDD-00061(1)VR Super Engine Manual</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Chacun pour soi ! Éliminez un maximum d'adversaires avant la fin du temps imparti. Le meilleur
-                gagne.
+                Chacun pour soi ! Éliminez un maximum d'adversaires avant la fin du temps imparti.
               </p>
             </div>
           </div>
 
+
           {/* Team Deathmatch Mode */}
           <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
-            <img src="https://app.eva.gg/assets/mode-TDM-visual-BZ7t2zez.webp" alt="Team Deathmatch" className="w-full h-[60%] object-cover" />
+            <img src="https://www.vrmoviepower.com/uploads/14777/products/p2024012915065549dfb.jpg" alt="Team Deathmatch" className="w-full h-[60%] object-cover" />
             <div className="p-6">
               <h4 className="text-white text-xl font-black mb-3">TEAM DEATHMATCH</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
