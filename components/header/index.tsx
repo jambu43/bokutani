@@ -1,22 +1,32 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 const index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <div>
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
-        <div className="fixed inset-0 z-50">
+        <div className="fixed inset-0 z-[100]">
           {/* Backdrop */}
           <div
-            className="absolute inset-0 bg-black/50"
+            className="absolute inset-0 bg-black/50 z-10"
             onClick={() => setIsMenuOpen(false)}
           ></div>
 
           {/* Menu Sidebar */}
-          <div className="absolute left-0 top-0 h-full w-100 bg-white rounded-r-2xl shadow-2xl">
+          <div className="absolute left-0 top-0 h-full w-100 bg-white rounded-r-2xl shadow-2xl z-20">
             <div className="p-6 h-full flex flex-col">
               {/* Close Button */}
               <div className="flex justify-start mb-6">
@@ -53,20 +63,20 @@ const index = () => {
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="attractions"
+                    <Link
+                      href="/attractions"
                       className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
                     >
                      ATTRACTIONS
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/hotellerie"
                       className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
                     >
                       Hôtellerie
-                    </a>  
+                    </Link>  
                   </li>
                   <li>
                     <Link
@@ -147,48 +157,66 @@ const index = () => {
         </div>
       )}
       {/* Header */}
-      <header className="fixed top-0 w-full bg-transparent z-50">
+      <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+        isScrolled ? "bg-white shadow-md" : "bg-transparent"
+      }`}>
         <nav className="container mx-auto px-6 py-6 flex items-center justify-between">
           {/* Left side - Menu icon and navigation */}
           <div className="flex items-center space-x-8">
             <button
               onClick={() => setIsMenuOpen(true)}
-              className="text-white text-xl hover:text-gray-300 transition-colors"
+              className={`text-xl transition-colors ${
+                isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
+              }`}
             >
               ☰
             </button>
             <div className="hidden md:flex space-x-8">
               <Link
                 href="/jeux-vr"
-                className="text-white hover:text-gray-300 transition-colors"
+                className={`transition-colors ${
+                  isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
+                }`}
               >
                 Jeux VR
               </Link>
               <Link
                 href="/bar"
-                className="text-white hover:text-gray-300 transition-colors"
+                className={`transition-colors ${
+                  isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
+                }`}
               >
                Restaurant
               </Link>
               <Link
-                href="#evenements"
-                className="text-white hover:text-gray-300 transition-colors"
+                href="/evenements"
+                className={`transition-colors ${
+                  isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
+                }`}
               >
                 Événements
               </Link>
             </div>
           </div>
 
-         <Link href="/" className="text-white hover:text-gray-300 transition-colors">
+         <Link href="/" className={`transition-colors ${
+           isScrolled ? "opacity-100" : "opacity-100"
+         }`}>
          <Image src="/logo-bokutani.svg" alt="Bokutani" width={200} height={200} />
          </Link>
 
           {/* Right side - User and CTA */}
           <div className="flex items-center space-x-4">
-            <Link href="/contact" className="px-4 py-2 text-white hover:text-gray-300 transition-colors">
+            <Link href="/contact" className={`px-4 py-2 transition-colors ${
+              isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
+            }`}>
               Nous Contactez
             </Link>
-            <button className="px-6 py-2 bg-white hover:bg-gray-100 text-black font-medium transition-colors rounded-xl">
+            <button className={`px-6 py-2 font-medium transition-colors rounded-xl ${
+              isScrolled 
+                ? "bg-[#fc9937] hover:bg-[#fc9937]/90 text-white" 
+                : "bg-white hover:bg-gray-100 text-black"
+            }`}>
               RÉSERVER
             </button>
           </div>
