@@ -136,7 +136,7 @@ export default function HoteleriePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#fc9937] via-[#fc9937] to-[#fc9937] text-black">
           <Image
-            src="/luxury-urban-chalets-kinshasa-bokutani.jpg"
+            src="/gallery-2-bokutani.jpg"
             alt="Chalets urbains BOKUTANI"
             fill
             className="object-cover opacity-30 mix-blend-overlay"
@@ -157,20 +157,6 @@ export default function HoteleriePage() {
           </Button>
         </div>
 
-        {/* Curved transition */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg
-            viewBox="0 0 1440 120"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full"
-          >
-            <path
-              d="M0 0C240 80 480 120 720 120C960 120 1200 80 1440 0V120H0V0Z"
-              fill="white"
-            />
-          </svg>
-        </div>
       </section>
 
       {/* Introduction Section */}
