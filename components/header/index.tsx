@@ -54,7 +54,7 @@ const index = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="attractions"
                       className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
                     >
                      ATTRACTIONS
