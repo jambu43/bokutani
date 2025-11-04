@@ -10,7 +10,7 @@ function Games() {
             {/* Left Decorative Card */}
             <div className="hidden lg:block w-64 h-80 -rotate-12 opacity-90 hover:opacity-100 transition-opacity">
               <Image
-                src="/YR01-067VRKids.jpg"
+                src="/60178299_presentation-wide.jpg"
                 alt="VR Player"
                 width={500}
                 height={500}
@@ -26,7 +26,7 @@ function Games() {
                 <div 
                   className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                   style={{
-                    backgroundImage: "url('/vrdoomsday.jpg')"
+                    backgroundImage: "url('/vrdoomsdayW.jpg')"
                   }}
                 ></div>
                 
@@ -57,7 +57,7 @@ function Games() {
                 <div 
                   className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                   style={{
-                    backgroundImage: "url('https://image.made-in-china.com/202f0j00JLkGIHwhwmqN/Dynamic-Racing-Game-Machine-9d-Vr-Kids-Car-Driving-Simulator.webp')"
+                    backgroundImage: "url('https://www.stekiamusement.com/wp-content/uploads/2024/05/Cyberpunk-Racing-9dvr-car.jpg')"
                   }}
                 ></div>
                 
@@ -86,7 +86,7 @@ function Games() {
             {/* Right Decorative Card */}
             <div className="hidden lg:block w-64 h-80 rotate-12 opacity-90 hover:opacity-100 transition-opacity">
               <Image
-                src="/person-in-vr-gear-action-pose-with-yellow-accents-.jpg"
+                src="/ZAVR_04_01_Screenshot_07_4k1-3-scaled.webp"
                 alt="VR Player Action"
                 width={500}
                 height={500}

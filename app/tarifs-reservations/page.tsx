@@ -81,7 +81,7 @@ function TarifsReservations() {
 
           {/* Description */}
           <p className="text-base md:text-lg text-white mb-12 max-w-2xl mx-auto leading-relaxed">
-            Rejoignez les rangs des Battle Pass EVA et profitez de tarifs préférentiels, de contenu régulier et de réductions exclusives!
+            Rejoignez les rangs des Battle Pass Bokutani et profitez de tarifs préférentiels, de contenu régulier et de réductions exclusives!
           </p>
 
           {/* Scroll indicator */}
@@ -111,7 +111,7 @@ function TarifsReservations() {
       <section className="py-24 px-6 bg-white">
         <div className="container mx-auto max-w-7xl">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-black">
-            CHOISISSEZ L'ABONNEMENT <br /> QUI VOUS CONVIENT
+            CHOISISSEZ LE TICKET <br /> QUI VOUS CONVIENT
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

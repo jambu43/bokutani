@@ -51,17 +51,10 @@ const index = () => {
                       href="/jeux-vr"
                       className="text-black font-bold text-lg uppercase flex items-center justify-between hover:text-gray-600 transition-colors"
                     >
-                      JEUX EN RÉALITÉ VIRTUELLE
+                      JEUX VR
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/a-propos"
-                      className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
-                    >
-                      À PROPOS
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link
                       href="/attractions"
@@ -95,12 +88,12 @@ const index = () => {
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/a-propos"
                       className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
                     >
-                      TARIFS
-                    </a>
+                      À PROPOS
+                    </Link>
                   </li>
                 </ul>
               </nav>
