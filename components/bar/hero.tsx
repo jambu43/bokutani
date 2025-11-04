@@ -19,9 +19,9 @@ function hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-6">
         <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold text-white mb-8 leading-tight font-gotham">
-          REPOUSSEZ VOS LIMITES
+          LA BOUFFE C'EST ICI ! 
           <br />
-          <span className="text-white">ENTREZ DANS L'ARÈNE</span>
+          <span className="text-white">ENTREZ DANS LE RESTAURANT</span>
         </h1>
         <Link href="/reservation" className="px-8 py-4 bg-white text-purple-500 text-lg hover:bg-gray-100 transition-colors rounded-xl">
           RÉSERVER MAINTENANT

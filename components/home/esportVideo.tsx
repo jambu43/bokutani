@@ -11,7 +11,7 @@ function esportVideo() {
             <span className="text-white">L'ESPORT</span>
           </h4>
           <p className="text-white text-lg leading-relaxed max-w-3xl mx-auto mb-8">
-            Facile à prendre en main, difficile à maîtriser. EVA réinvente l'esport en mêlant performance physique et gaming. Suivez nos compétitions !
+            Facile à prendre en main, difficile à maîtriser. Bokutani réinvente l'esport en mêlant performance physique et gaming. Suivez nos compétitions !
           </p>
 
           {/* Action Buttons */}
@@ -75,9 +75,9 @@ function esportVideo() {
           <video
             className="w-full aspect-video bg-black"
             controls
-            poster="https://www.eva.gg/_next/static/media/hero.47002972.webp"
+            poster="https://cdn.eva.gg/videos/esport.webm"
           >
-            <source src="https://www.eva.gg/_next/static/media/hero.47002972.webp" type="video/mp4" />
+            <source src="https://cdn.eva.gg/videos/esport.webm" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos.
           </video>
         </div>

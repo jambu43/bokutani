@@ -7,15 +7,15 @@ function Qg() {
         {/* Titre principal */}
         <div className="text-center mb-12 relative -top-20">
           <h2 className="text-2xl md:text-2xl lg:text-4xl font-extrabold text-[#fc9937] mb-8 leading-tight font-gotham">
-            VOTRE NOUVEAU
+            VOTRE NOUVEAU <br />
             <span className="text-4xl md:text-4xl lg:text-4xl text-black">
-             {" "} QG
+             {" "} QG DE BOUFFE
             </span>
           </h2>
           <p className="text-lg md:text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed font-normal">
             Bien plus qu’un bar : un vrai repaire. Victoire, retrouvailles ou
             pause bien méritée ? Le Cyber Bar vous tend les bras. Solo, en
-            famille ou en équipe, ressentez l’esprit EVA, même sans entrer dans
+            famille ou en équipe, ressentez l’esprit BOKUTANI, même sans entrer dans
             l’arène.
           </p>
           <div className="rounded-3xl overflow-hidden shadow-2xl w-150 mx-auto mt-10">

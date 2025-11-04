@@ -10,10 +10,10 @@ function Games() {
             {/* Left Decorative Card */}
             <div className="hidden lg:block w-64 h-80 -rotate-12 opacity-90 hover:opacity-100 transition-opacity">
               <Image
-                src="/person-with-vr-headset-holding-gun-in-tactical-gea.jpg"
+                src="/YR01-067VRKids.jpg"
                 alt="VR Player"
-                width={200}
-                height={200}
+                width={500}
+                height={500}
                 className="w-full h-full object-cover rounded-3xl shadow-2xl"
               />
             </div>
@@ -26,7 +26,7 @@ function Games() {
                 <div 
                   className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                   style={{
-                    backgroundImage: "url('/futuristic-soldier-with-glowing-helmet-in-post-apo.jpg')"
+                    backgroundImage: "url('/vrdoomsday.jpg')"
                   }}
                 ></div>
                 
@@ -35,9 +35,9 @@ function Games() {
                 
                 {/* Contenu avec texte et boutons */}
                 <div className="relative z-10 p-6 space-y-4 h-full flex flex-col justify-end">
-                  <h5 className="text-white text-xl font-black">AFTER-H BATTLE ARENA</h5>
+                  <h5 className="text-white text-xl font-black">VR doomsday</h5>
                   <p className="text-gray-300 text-xs">
-                    Jeu de tir compétitif par équipe dans un monde post-apocalyptique.
+                  Doomsday, un jeu de tir et d'aventure en réalité virtuelle axé sur un scénario d'apocalypse zombie
                   </p>
                   <p className="text-gray-400 text-xs">Se joue de 2 à 10 joueurs</p>
                   <div className="space-y-3 pt-2">
@@ -57,7 +57,7 @@ function Games() {
                 <div 
                   className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                   style={{
-                    backgroundImage: "url('/zombie-creature-in-teal-cyan-underwater-horror-atm.jpg')"
+                    backgroundImage: "url('https://image.made-in-china.com/202f0j00JLkGIHwhwmqN/Dynamic-Racing-Game-Machine-9d-Vr-Kids-Car-Driving-Simulator.webp')"
                   }}
                 ></div>
                 
@@ -66,9 +66,9 @@ function Games() {
                 
                 {/* Contenu avec texte et boutons */}
                 <div className="relative z-10 p-6 space-y-4 h-full flex flex-col justify-end">
-                  <h5 className="text-white text-xl font-black">MOON OF THE DEAD</h5>
+                  <h5 className="text-white text-xl font-black">VR Kids Racing User</h5>
                   <p className="text-gray-300 text-xs">
-                    Le jeu de zombies en VR le plus intense et immersif jamais conçu.
+                    Le jeu d'enfant qui utilise un simulateur de course en réalité virtuelle
                   </p>
                   <p className="text-gray-400 text-xs">Se joue de 1 à 10 joueurs</p>
                   <div className="space-y-3 pt-2">
@@ -88,8 +88,8 @@ function Games() {
               <Image
                 src="/person-in-vr-gear-action-pose-with-yellow-accents-.jpg"
                 alt="VR Player Action"
-                width={200}
-                height={200}
+                width={500}
+                height={500}
                 className="w-full h-full object-cover rounded-3xl shadow-2xl"
               />
             </div>

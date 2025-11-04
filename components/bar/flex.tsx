@@ -25,21 +25,21 @@ function flex() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="https://www.eva.gg/_next/static/media/dart3.f43e2644.webp"
+            src="https://www.BOKUTANI.gg/_next/static/media/dart3.f43e2644.webp"
             alt="Playing AR Darts"
             className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="https://www.eva.gg/_next/static/media/dart3.f43e2644.webp"
+            src="https://www.BOKUTANI.gg/_next/static/media/dart3.f43e2644.webp"
             alt="Throwing Darts"
             className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="https://www.eva.gg/_next/static/media/dart3.f43e2644.webp"
+            src="https://www.BOKUTANI.gg/_next/static/media/dart3.f43e2644.webp"
             alt="AR Darts Interface"
             className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
           />

@@ -28,71 +28,71 @@ function community() {
       <div className="relative max-w-5xl mx-auto h-96">
         {/* Top Row */}
         <img
-          src="/esports-team-logo-seven.jpg"
+          src="https://thispersondoesnotexist.com/"
           alt="Community Member"
           className="absolute top-0 left-[10%] w-24 h-24 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/gamer-with-vr-headset-profile.jpg"
+          src="/thispersondoesnotexist1.jpg"
           alt="Community Member"
           className="absolute top-0 left-[25%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/esports-team-logo-blf.jpg"
+          src="/RobC9Oek.jpg"
           alt="Community Member"
           className="absolute top-0 right-[20%] w-24 h-24 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/person-meditating-in-vr.jpg"
+          src="/6nvcHv_q.jpg"
           alt="Community Member"
           className="absolute top-0 right-[5%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />
 
         {/* Middle Row */}
         <img
-          src="/esports-player-red-jersey.jpg"
+          src="https://www.eva.gg/_next/static/media/l1-1.b1b5caba.webp"
           alt="Community Member"
           className="absolute top-[35%] left-[5%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/purple-character-mascot.jpg"
+          src="https://www.eva.gg/_next/static/media/l1-3.4fb4beb5.webp"
           alt="Community Member"
           className="absolute top-[35%] left-[22%] w-32 h-32 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/woman-with-orange-cap-smiling.jpg"
+          src="https://www.eva.gg/_next/static/media/l1-4.470cde4a.webp"
           alt="Community Member"
           className="absolute top-[35%] left-[42%] w-32 h-32 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/esports-player-yellow-jersey.jpg"
+          src="https://www.eva.gg/_next/static/media/l2-2.f19495c5.webp"
           alt="Community Member"
           className="absolute top-[35%] right-[22%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/esports-team-logo-seven-blue.jpg"
+          src="https://www.eva.gg/_next/static/media/l2-3.4740d69f.webp"
           alt="Community Member"
           className="absolute top-[35%] right-[5%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/vr-player-with-gun.jpg"
+          src="https://www.eva.gg/_next/static/media/l2-5.4d503453.webp"
           alt="Community Member"
           className="absolute top-[35%] right-[-2%] w-24 h-24 rounded-full object-cover border-4 border-white shadow-xl"
         />
 
         {/* Bottom Row */}
         <img
-          src="/futuristic-helmet-character.jpg"
+          src="https://www.eva.gg/_next/static/media/l3-1.2dc12714.webp"
           alt="Community Member"
           className="absolute bottom-0 left-[28%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/person-with-sunglasses-casual.jpg"
+          src="https://www.eva.gg/_next/static/media/l3-3.2998c2c3.webp"
           alt="Community Member"
           className="absolute bottom-0 left-[45%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />
         <img
-          src="/gamer-celebrating-with-trophy.jpg"
+          src="https://www.eva.gg/_next/static/media/l2-5.4d503453.webp"
           alt="Community Member"
           className="absolute bottom-0 right-[25%] w-28 h-28 rounded-full object-cover border-4 border-white shadow-xl"
         />

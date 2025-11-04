@@ -18,7 +18,7 @@ function news() {
             <div className="group cursor-pointer">
               <div className="rounded-2xl overflow-hidden mb-4 shadow-lg">
                 <img
-                  src="/vr-arena-interior-with-purple-lighting.jpg"
+                  src="https://2405525.fs1.hubspotusercontent-na1.net/hubfs/2405525/Horizon_Image_009%20%282%29-1.png"
                   alt="Patch Note 1.6.4"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -34,7 +34,7 @@ function news() {
             <div className="group cursor-pointer">
               <div className="rounded-2xl overflow-hidden mb-4 shadow-lg">
                 <img
-                  src="/futuristic-character-with-blue-glowing-effects.jpg"
+                  src="https://2405525.fs1.hubspotusercontent-na1.net/hubfs/2405525/banner%20patch%20note-2.png"
                   alt="Patch Note 1.6.3 & 0.5.11"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -50,7 +50,7 @@ function news() {
             <div className="group cursor-pointer">
               <div className="rounded-2xl overflow-hidden mb-4 shadow-lg">
                 <img
-                  src="/futuristic-character-with-blue-glowing-effects.jpg"
+                  src="https://2405525.fs1.hubspotusercontent-na1.net/hubfs/2405525/banner%20patch%20note-2.png"
                   alt="Patch Note 1.6.2"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />

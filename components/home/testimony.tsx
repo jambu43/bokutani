@@ -14,21 +14,21 @@ function testimony() {
     {
       text: "Superbe expérience",
       reviewer: "SÉBASTIEN",
-      location: "EVA Dijon",
+      location: "Bokutani Kinshasa",
       time: "il y a 5 mois",
       image: "/person-with-vr-headset-holding-gun-in-tactical-gea.jpg",
     },
     {
-      text: "100% immersif, EVA n'avait pas menti 🤩🤩 Explications claires, équipement et personnel ttes compétents. Le tout dans un cadre très agréable. Ça passe trop vite 🥺 à bientôt et merci !",
+      text: "100% immersif, Bokutani n'avait pas menti 🤩🤩 Explications claires, équipement et personnel ttes compétents. Le tout dans un cadre très agréable. Ça passe trop vite 🥺 à bientôt et merci !",
       reviewer: "JUSTINE M",
-      location: "EVA Amiens",
+      location: "Bokutani Kinshasa",
       time: "il y a 1 mois",
       image: "/person-in-vr-gear-action-pose-with-yellow-accents-.jpg",
     },
     {
       text: "Une super immersion ! Dommage que ce soit si court, on en redemande !",
       reviewer: "THOMAS L",
-      location: "EVA Paris",
+      location: "Bokutani Kinshasa",
       time: "il y a 2 semaines",
       image: "/two-people-wearing-vr-headsets-holding-vr-guns-in-.jpg",
     },
@@ -88,22 +88,22 @@ function testimony() {
       </div>
       <div className="flex justify-center gap-4 flex-wrap">
             <img
-              src="/person-wearing-vr-headset-profile-photo.jpg"
+              src="https://thispersondoesnotexist.com/"
               alt="Customer"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />
             <img
-              src="/person-with-vr-gear-smiling-profile-photo.jpg"
+              src="/thispersondoesnotexist1.jpg"
               alt="Customer"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />
             <img
-              src="/woman-wearing-vr-headset-profile-photo.jpg"
+              src="/RobC9Oek.jpg"
               alt="Customer"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />
             <img
-              src="/man-in-vr-gaming-setup-profile-photo.jpg"
+              src="/6nvcHv_q.jpg"
               alt="Customer"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />

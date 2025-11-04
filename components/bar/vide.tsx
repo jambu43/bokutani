@@ -10,15 +10,15 @@ function Vide() {
           <span className="text-[#fc9937]">POUR VIBRER</span>
         </h3>
         <p className="text-gray-700 text-md leading-relaxed max-w-3xl mx-auto font-weight-light">
-          Le Cyber Bar, c'est aussi le QG des soirées EVA ! Soirées à thème, viewing parties pour vivre les grands
-          moments gaming, animations spéciales... Chaque salle EVA propose son propre programme.
+          Le Cyber Bar, c'est aussi le QG des soirées BOKUTANI ! Soirées à thème, viewing parties pour vivre les grands
+          moments gaming, animations spéciales... Chaque salle BOKUTANI propose son propre programme.
         </p>
       </div>
 
       {/* Event Image */}
       <div className="rounded-3xl overflow-hidden shadow-2xl">
         <img
-          src="https://www.eva.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnight.5f347def.webp&w=1920&q=75"
+          src="https://www.BOKUTANI.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnight.5f347def.webp&w=1920&q=75"
           alt="Evening Event"
           className="w-full h-auto object-cover"
         />

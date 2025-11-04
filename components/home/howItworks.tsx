@@ -65,7 +65,7 @@ function howItworks() {
             {/* Right Column - Image */}
             <div className="relative">
               <Image
-                src="/two-people-wearing-vr-headsets-holding-vr-guns-in-.jpg"
+                src="/game-vr.jpg"
                 width={500}
                 height={500}
                 alt="Players in VR Arena"

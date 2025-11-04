@@ -10,7 +10,7 @@ function events() {
             <span className="text-[#fc9937]">L'OCCASION</span>
           </h4>
           <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
-            Une arène rien que pour vous. Privatisez EVA et transformez votre
+            Une arène rien que pour vous. Privatisez Bokutani et transformez votre
             événement en moment inoubliable.
           </p>
         </div>

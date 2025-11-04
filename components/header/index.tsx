@@ -29,20 +29,35 @@ const index = () => {
               </div>
 
               {/* Find My Room Button */}
-              <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg py-4 px-6 rounded-lg mb-8 transition-colors">
-                TROUVER MA SALLE
-              </button>
+              <Link href="/reservation" className="w-full z-10 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold text-lg py-4 px-6 rounded-lg mb-8 transition-colors">
+                RÉSERVER
+              </Link>
 
               {/* Main Navigation */}
               <nav className="flex-1">
                 <ul className="space-y-6">
                   <li>
-                    <a
+                    <Link
                       href="/jeux-vr"
                       className="text-black font-bold text-lg uppercase flex items-center justify-between hover:text-gray-600 transition-colors"
                     >
                       JEUX EN RÉALITÉ VIRTUELLE
-                      <span className="text-gray-400">▼</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/a-propos"
+                      className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
+                    >
+                      À PROPOS
+                    </Link>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
+                    >
+                     ATTRACTIONS
                     </a>
                   </li>
                   <li>
@@ -50,41 +65,24 @@ const index = () => {
                       href="#"
                       className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
                     >
-                      CYBERBAR
-                    </a>
+                      Hôtellerie
+                    </a>  
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/tarifs-reservations"
                       className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
                     >
-                      FLÉCHETTES AUGMENTÉES
-                    </a>
+                     TARIFS & RÉSERVATIONS
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
-                    >
-                      ABONNEMENTS
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-black font-bold text-lg uppercase hover:text-gray-600 transition-colors"
-                    >
-                      CARTE CADEAU
-                    </a>
-                  </li>
-                  <li>
-                    <a
+                    <Link
                       href="#"
                       className="text-black font-bold text-lg uppercase flex items-center justify-between hover:text-gray-600 transition-colors"
                     >
-                      VOS ÉVÉNEMENTS
-                      <span className="text-gray-400">▼</span>
-                    </a>
+                      VR BAR
+                    </Link>
                   </li>
                   <li>
                     <a
@@ -99,16 +97,21 @@ const index = () => {
 
               {/* Other Sites Section */}
               <div className="mt-8 mb-6">
-                <h3 className="text-black text-sm font-normal mb-4">
-                  Nos autres sites
-                </h3>
                 <ul className="space-y-3">
                   <li>
+                    <Link
+                      href="#"
+                      className="text-black text-sm hover:text-gray-600 transition-colors"
+                    >
+                      Actualités
+                    </Link>
+                  </li>
+                  <li>
                     <a
                       href="#"
                       className="text-black text-sm hover:text-gray-600 transition-colors"
                     >
-                      Bokutani Competitive
+                     Contact
                     </a>
                   </li>
                   <li>
@@ -116,7 +119,7 @@ const index = () => {
                       href="#"
                       className="text-black text-sm hover:text-gray-600 transition-colors"
                     >
-                      Bokutani Shop
+                      Galerie
                     </a>
                   </li>
                   <li>
@@ -124,25 +127,10 @@ const index = () => {
                       href="#"
                       className="text-black text-sm hover:text-gray-600 transition-colors"
                     >
-                      Bokutani Blog
+                      Événements
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-black text-sm hover:text-gray-600 transition-colors"
-                    >
-                      Ouvrir une franchise
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-black text-sm hover:text-gray-600 transition-colors"
-                    >
-                      Rejoindre l'équipe
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
 
@@ -151,11 +139,6 @@ const index = () => {
                 <button className="flex items-center space-x-2 px-2 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
                   <span className="text-xs">🌐</span>
                   <span className="text-black text-xs">FRANÇAIS</span>
-                  <span className="text-gray-400">▼</span>
-                </button>
-                <button className="flex items-center space-x-2 px-2 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-                  <span className="text-xs">🇫🇷</span>
-                  <span className="text-black text-xs">FRANCE</span>
                   <span className="text-gray-400">▼</span>
                 </button>
               </div>
@@ -185,7 +168,7 @@ const index = () => {
                 href="/bar"
                 className="text-white hover:text-gray-300 transition-colors"
               >
-                Bar et Fléchettes
+               Restaurant
               </Link>
               <Link
                 href="#evenements"
@@ -196,13 +179,15 @@ const index = () => {
             </div>
           </div>
 
-          <Image src="/logo-bokutani.svg" alt="Bokutani" width={200} height={200} />
+         <Link href="/" className="text-white hover:text-gray-300 transition-colors">
+         <Image src="/logo-bokutani.svg" alt="Bokutani" width={200} height={200} />
+         </Link>
 
           {/* Right side - User and CTA */}
           <div className="flex items-center space-x-4">
-            <button className="px-4 py-2 text-white hover:text-gray-300 transition-colors">
-              Se connecter
-            </button>
+            <Link href="/contact" className="px-4 py-2 text-white hover:text-gray-300 transition-colors">
+              Nous Contactez
+            </Link>
             <button className="px-6 py-2 bg-white hover:bg-gray-100 text-black font-medium transition-colors rounded-xl">
               RÉSERVER
             </button>
