@@ -26,7 +26,7 @@ const index = () => {
           ></div>
 
           {/* Menu Sidebar */}
-          <div className="absolute left-0 top-0 h-full w-100 bg-white rounded-r-2xl shadow-2xl z-20">
+          <div className="absolute left-0 top-0 h-full w-[85vw] max-w-sm bg-white rounded-r-2xl shadow-2xl z-20">
             <div className="p-6 h-full flex flex-col">
               {/* Close Button */}
               <div className="flex justify-start mb-6">
@@ -164,9 +164,9 @@ const index = () => {
       <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}>
-        <nav className="container mx-auto px-2 py-2 flex items-center justify-between">
+        <nav className="container mx-auto px-6 py-6 flex items-center justify-between max-w-full overflow-hidden">
           {/* Left side - Menu icon and navigation */}
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-2 md:space-x-8 flex-shrink-0">
             <button
               onClick={() => setIsMenuOpen(true)}
               className={`transition-colors ${
@@ -218,7 +218,7 @@ const index = () => {
             </div>
           </div>
 
-         <Link href="/" className={`transition-colors ${
+         <Link href="/" className={`transition-colors flex-shrink-0 ${
            isScrolled ? "opacity-100" : "opacity-100"
          }`}>
          <Image 
@@ -226,12 +226,12 @@ const index = () => {
            alt="Bokutani" 
            width={400} 
            height={200}
-           className="w-[200px] h-auto md:w-[400px]"
+           className="w-[150px] h-auto md:w-[400px] max-w-[40vw] md:max-w-none"
          />
          </Link>
 
           {/* Right side - User and CTA */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2 md:space-x-4 flex-shrink-0">
             <Link href="/contact" className={`hidden md:inline-block px-4 py-2 transition-colors ${
               isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
             }`}>
