@@ -40,3 +40,46 @@ body {
     height: 63px;
 }
 
+/* Animations pour la popup mobile */
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+  }
+}
+
+@keyframes logoGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(252, 153, 55, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px rgba(252, 153, 55, 0.8));
+  }
+}
+
+@keyframes logoEnter {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(40px);
+  }
+  60% {
+    transform: scale(1.1) translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.logo-animated {
+  animation: logoFloat 3s ease-in-out infinite, logoGlow 2s ease-in-out infinite;
+}
+
+.logo-enter {
+  animation: logoEnter 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards, 
+             logoFloat 3s ease-in-out 0.8s infinite, 
+             logoGlow 2s ease-in-out 0.8s infinite;
+}
+

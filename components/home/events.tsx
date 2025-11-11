@@ -19,7 +19,7 @@ function events() {
           {/* Anniversaire Card */}
           <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
             <img
-              src="https://www.eva.gg/_next/static/media/birthday.5160919d.webp"
+              src="/gamesxx2.jpg"
               alt="Anniversaire"
               className="w-full h-full object-cover"
             />
@@ -40,14 +40,14 @@ function events() {
           {/* EVG / EVJF Card */}
           <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
             <img
-              src="https://www.eva.gg/_next/static/media/bachelorParty.35e6dec8.webp"
+              src="/gamex.jpg"
               alt="EVG / EVJF"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
               <h5 className="text-3xl font-black mb-3 text-center">
-                EVG / EVJF
+                BOKUTANI / BKJF
               </h5>
               <p className="text-gray-200 text-sm mb-6 text-center">
                 Sessions de jeu et tournées de shots : ce qui se passe chez EVA
@@ -62,7 +62,7 @@ function events() {
           {/* Entreprises Card */}
           <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
             <img
-              src="https://www.eva.gg/_next/static/media/teamBuilding.6542582c.webp"
+              src="/gamesxx3.jpeg"
               alt="Entreprises"
               className="w-full h-full object-cover"
             />

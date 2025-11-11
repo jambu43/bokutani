@@ -4,6 +4,7 @@ import "./globals.css";
 import "./fonts.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import MobileWelcomePopup from "@/components/mobileWelcomePopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "BOKUTANI - Repoussez vos limites, entrez dans l'arène",
-  description: "BOKUTANI, le leader des jeux VR en équipe. Une immersion totale en réalité virtuelle sur 500m². Jeux exclusifs : After-H Battle Arena et Moon of The Dead.",
+  description: "BOKUTANI, le leader des jeux VR en équipe. Une immersion totale en réalité virtuelle sur 500m². Jeux exclusifs.",
 };
 
 export default function RootLayout({
@@ -31,6 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         style={{ fontFamily: 'Gotham, sans-serif' }}
       >
+        <MobileWelcomePopup />
         <Header />
         {children}
         <Footer />

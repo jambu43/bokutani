@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       <Immersion />
       <Games />
-      <Activity />
+      {/* <Activity /> */}
       <HowItworks />
       <Testimony />
       <Events />

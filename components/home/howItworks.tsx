@@ -16,7 +16,7 @@ function howItworks() {
                   <span className="text-black">ÇA MARCHE ?</span>
                 </h4>
                 <p className="text-gray-700 text-md leading-relaxed">
-                  Chez EVA, tout le monde peut entrer dans l'arène. Joueur occasionnel ou compétiteur, vivez une
+                  Chez BOKUTANI, tout le monde peut entrer dans l'arène. Joueur occasionnel ou compétiteur, vivez une
                   expérience unique !
                 </p>
               </div>

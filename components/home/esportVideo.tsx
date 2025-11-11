@@ -75,7 +75,7 @@ function esportVideo() {
           <video
             className="w-full aspect-video bg-black"
             controls
-            poster="https://cdn.eva.gg/videos/esport.webm"
+            poster="/gamesxx3.jpeg"
           >
             <source src="https://cdn.eva.gg/videos/esport.webm" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos.

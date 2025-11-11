@@ -10,7 +10,7 @@ function Games() {
             {/* Left Decorative Card */}
             <div className="hidden lg:block w-64 h-80 -rotate-12 opacity-90 hover:opacity-100 transition-opacity">
               <Image
-                src="/60178299_presentation-wide.jpg"
+                src="/gamesxx2.jpg"
                 alt="VR Player"
                 width={500}
                 height={500}
@@ -22,13 +22,16 @@ function Games() {
             <div className="flex flex-col md:flex-row gap-6 max-w-4xl justify-center">
               {/* After-H Battle Arena Card */}
               <div className="relative rounded-xl overflow-hidden shadow-2xl w-full md:w-64 lg:w-85 min-h-[500px]">
-                {/* Image de fond */}
-                <div 
-                  className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                  style={{
-                    backgroundImage: "url('/vrdoomsdayW.jpg')"
-                  }}
-                ></div>
+                {/* Vidéo de fond */}
+                <video
+                  className="absolute inset-0 w-full h-full object-cover"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                >
+                  <source src="/gamexx2.mp4" type="video/mp4" />
+                </video>
                 
                 {/* Dégradé noir par-dessus */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black/90"></div>
@@ -54,12 +57,15 @@ function Games() {
               {/* Moon of the Dead Card */}
               <div className="relative rounded-xl overflow-hidden shadow-2xl w-full md:w-64 lg:w-85 min-h-[500px]">
                 {/* Image de fond */}
-                <div 
-                  className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                  style={{
-                    backgroundImage: "url('https://www.stekiamusement.com/wp-content/uploads/2024/05/Cyberpunk-Racing-9dvr-car.jpg')"
-                  }}
-                ></div>
+                <video
+                  className="absolute inset-0 w-full h-full object-cover"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                >
+                  <source src="/videogamexx2.mp4" type="video/mp4" />
+                </video>
                 
                 {/* Dégradé noir par-dessus */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black/90"></div>

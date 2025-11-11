@@ -172,7 +172,9 @@ export default function AProposPage() {
           </div>
 
           <div className="bg-white p-12 rounded-2xl shadow-sm">
-            <h3 className="text-3xl font-black mb-6 text-black">OFFRE TEAM BUILDING</h3>
+            <h3 className="text-3xl font-black mb-6 text-black">
+              OFFRE TEAM BUILDING
+            </h3>
             <p className="text-gray-700 mb-8 leading-relaxed">
               Profitez d'une expérience complète incluant briefing, équipement
               VR de pointe, et accompagnement par notre équipe. Idéal pour
@@ -183,19 +185,27 @@ export default function AProposPage() {
             <ul className="space-y-3 mb-8">
               <li className="flex items-start gap-3">
                 <span className="text-[#fc9937] text-xl">✓</span>
-                <span className="text-black">Accueil et briefing par notre équipe</span>
+                <span className="text-black">
+                  Accueil et briefing par notre équipe
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#fc9937] text-xl">✓</span>
-                <span className="text-black">Équipement VR haut de gamme (casque, gun connecté)</span>
+                <span className="text-black">
+                  Équipement VR haut de gamme (casque, gun connecté)
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#fc9937] text-xl">✓</span>
-                <span className="text-black">Sessions de jeu adaptées à votre groupe</span>
+                <span className="text-black">
+                  Sessions de jeu adaptées à votre groupe
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#fc9937] text-xl">✓</span>
-                <span className="text-black">Accès au Cyber Bar pour prolonger l'expérience</span>
+                <span className="text-black">
+                  Accès au Cyber Bar pour prolonger l'expérience
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#fc9937] text-xl">✓</span>
@@ -209,7 +219,6 @@ export default function AProposPage() {
           </div>
         </div>
       </section>
-
 
       {/* Ils Nous Font Confiance */}
       <section className="py-20 px-6">
@@ -299,6 +308,75 @@ export default function AProposPage() {
                   EN SAVOIR PLUS
                 </Button>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Adresse */}
+      <section className="py-10 px-6 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="text-5xl font-black text-center text-black mb-12">
+            NOUS TROUVER
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Informations de contact */}
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-black text-black mb-6">ADRESSE</h3>
+                <div className="space-y-4 text-gray-700">
+                  <p className="text-lg">
+                    <strong className="text-black">BOKUTANI</strong>
+                  </p>
+                  <p className="text-lg">
+                    3eme niveau Galleria Mall <br/> 9, Avenue Colonel Lukusa 6133, Kinshasa-Gombe <br />
+                    Réf: Arrêt Chancellerie & Premier Shopping <br />
+                    Kinshasa-Gombe
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-black text-black mb-6">CONTACT</h3>
+                <div className="space-y-4 text-gray-700">
+                  <p className="text-lg flex items-center gap-3">
+                    <span className="text-2xl">📞</span>
+                    <span>[Téléphone à compléter]</span>
+                  </p>
+                  <p className="text-lg flex items-center gap-3">
+                    <span className="text-2xl">✉️</span>
+                    <a href="mailto:contact@bokutani.cd">contact@bokutani.cd</a>
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-black text-black mb-6">
+                  HORAIRES
+                </h3>
+                <div className="space-y-2 text-gray-700">
+                  <p className="text-lg">Lundi - Vendredi: 9h-22h</p>
+                  <p className="text-lg">Samedi - Dimanche: 10h-00h</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Carte ou image */}
+            <div className="relative h-[500px] rounded-2xl overflow-hidden bg-gray-200">
+              {/* Placeholder pour la carte Google Maps ou une image */}
+              {/* <div className="w-full h-full flex items-center justify-center text-gray-400">
+                <p className="text-xl">Carte à intégrer</p>
+              </div> */}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.5660379155133!2d15.299602199999999!3d-4.3041114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3369d6a3d1b3%3A0x2053597522e69370!2sGalleria%20Mall!5e0!3m2!1sfr!2scd!4v1762868509378!5m2!1sfr!2scd"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>
