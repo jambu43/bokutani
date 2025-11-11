@@ -1,18 +1,32 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      // Force la lecture sur mobile
+      videoRef.current.play().catch(() => {
+        // Ignore les erreurs d'autoplay
+      });
+    }
+  }, []);
+
   return (
     <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
       {/* Background video */}
       <div className="absolute inset-0 z-0">
         <video
+          ref={videoRef}
           className="w-full h-full object-cover"
           autoPlay
           muted
           loop
           playsInline
+          preload="auto"
         >
+          <source src="https://cdn.eva.gg/videos/eva-bg-video.mp4" type="video/mp4" />
           <source src="https://cdn.eva.gg/videos/eva-bg-video.webm" type="video/webm" />
         </video>
         {/* Gradient overlay */}
