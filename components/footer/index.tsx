@@ -7,7 +7,7 @@ function index() {
     <div className="container mx-auto px-6">
       <div className="grid md:grid-cols-4 gap-8 mb-8">
         <div>
-        <Image src="/logo-bokutani.svg" alt="EVA" width={200} height={200} />
+        <Image src="/logo-bokutani.svg" alt="BOKUTANI" width={200} height={200} />
         </div>
         
         <div>
@@ -16,7 +16,7 @@ function index() {
             <li><a href="#" className="hover:text-white transition-colors">After H Battle Arena</a></li>
             <li><a href="#" className="hover:text-white transition-colors">After H Zombie</a></li>
             <li><a href="#" className="hover:text-white transition-colors">After H Moon of the dead</a></li>
-            <li><a href="#" className="hover:text-white transition-colors">Eva Darts</a></li>
+            <li><a href="#" className="hover:text-white transition-colors">BOKUTANI Darts</a></li>
           </ul>
         </div>
         

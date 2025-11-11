@@ -13,14 +13,14 @@ function testimony() {
   const testimonials: Testimonial[] = [
     {
       text: "Superbe expérience",
-      reviewer: "SÉBASTIEN",
+      reviewer: "DIVIN M",
       location: "Bokutani Kinshasa",
       time: "il y a 5 mois",
       image: "/person-with-vr-headset-holding-gun-in-tactical-gea.jpg",
     },
     {
       text: "100% immersif, Bokutani n'avait pas menti 🤩🤩 Explications claires, équipement et personnel ttes compétents. Le tout dans un cadre très agréable. Ça passe trop vite 🥺 à bientôt et merci !",
-      reviewer: "JUSTINE M",
+      reviewer: "JORNADAB B",
       location: "Bokutani Kinshasa",
       time: "il y a 1 mois",
       image: "/person-in-vr-gear-action-pose-with-yellow-accents-.jpg",
@@ -88,17 +88,17 @@ function testimony() {
       </div>
       <div className="flex justify-center gap-4 flex-wrap">
             <img
-              src="https://thispersondoesnotexist.com/"
+              src="https://scontent.ffih1-2.fna.fbcdn.net/v/t39.30808-6/558222727_1329894558919105_2137377229508313276_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF5I3shveasQF0aoIpw1gCcQ0_d4dknWZtDT93h2SdZmyBtfCaI6VRr5u-hNJoB0Pl8p3pt2DfvlzG5w5stPDF8&_nc_ohc=yCQM9TltNDAQ7kNvwFWebL7&_nc_oc=Adn_ci4l6TxTCx8WIBTo2nReBqi1RWtC3XdwGx36KkBRdB6NiWeRYV9tXuJD2cQzzsg&_nc_zt=23&_nc_ht=scontent.ffih1-2.fna&_nc_gid=p08jPo1RTo9jydTOqdQZkg&oh=00_AfiFjp8thnGPKt_0tZ4fdtEKSzZCb1F__lBCo3l7n3JGCA&oe=69191820"
               alt="Customer"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />
             <img
-              src="/thispersondoesnotexist1.jpg"
+              src="https://scontent.ffih1-2.fna.fbcdn.net/v/t39.30808-6/452438049_793828532866050_7713373290277823893_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH6XFiivX3gNzJjSJGIKyuHDQ0IyIkbeEoNDQjIiRt4SlxpyOGv1jZJWrfYifoR7OTnEJMuGYOY58tZTyEOxUhW&_nc_ohc=wqkxrGgdlwMQ7kNvwFhUdQH&_nc_oc=AdlQU9zcoXwH0mXszZC5U9u7xfIh_aMdmuns8rg5TwLV6iUbuO2lGZVjrY6-fv_Vs7s&_nc_zt=23&_nc_ht=scontent.ffih1-2.fna&_nc_gid=sZ_LB9oFdxRVWudNXUivmg&oh=00_Afh_LFHXOtgxA7AeSPqN88pxpcEXpbDQuy6sZyzQBSNzKQ&oe=69192AB1"
               alt="Customer"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />
             <img
-              src="/RobC9Oek.jpg"
+              src="https://scontent.ffih1-2.fna.fbcdn.net/v/t39.30808-6/337360281_1645758022511311_2858049976465293975_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEPFNTqaYfs_kWZxRcQvUWuCEPVCl1zPgQIQ9UKXXM-BG72dFWc_x7OpD6WR6cZ-Akbfm5GHbbDXZc8FZSFGjAA&_nc_ohc=eOnYTP_yXK8Q7kNvwHy83v9&_nc_oc=AdlFdjFnpNtUMIa88DIqIqB0t_k9zV1xsJRq1B3fynoHsPezKtELOx1HSwab0zy2Pak&_nc_zt=23&_nc_ht=scontent.ffih1-2.fna&_nc_gid=7d3H-LtHoTvwkXW_ZD9uTw&oh=00_AfhO_SzGgwstLTc3Mb70-pFVKAW_RBDt_DTJDw_iYiQqpw&oe=6919306B"
               alt="Customer"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />

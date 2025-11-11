@@ -164,7 +164,7 @@ const index = () => {
       <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}>
-        <nav className="container mx-auto px-6 py-6 flex items-center justify-between">
+        <nav className="container mx-auto px-2 py-2 flex items-center justify-between">
           {/* Left side - Menu icon and navigation */}
           <div className="flex items-center space-x-8">
             <button
