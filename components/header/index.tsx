@@ -208,7 +208,7 @@ const index = () => {
                Restaurant
               </Link>
               <Link
-                href="/evenements"
+                href="/#"
                 className={`transition-colors ${
                   isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
                 }`}
@@ -224,9 +224,9 @@ const index = () => {
          <Image 
            src="/logo-bokutani.svg" 
            alt="Bokutani" 
-           width={400} 
+           width={200} 
            height={200}
-           className="w-[150px] h-auto md:w-[400px] max-w-[40vw] md:max-w-none"
+           className="w-[150px] h-auto md:w-[300px] max-w-[50vw] md:max-w-none"
          />
          </Link>
 
