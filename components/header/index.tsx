@@ -226,7 +226,7 @@ const index = () => {
            alt="Bokutani" 
            width={200} 
            height={200}
-           className="w-[150px] h-auto md:w-[300px] max-w-[50vw] md:max-w-none"
+           className="w-[200px] h-auto md:w-[350px] max-w-[50vw] md:max-w-none"
          />
          </Link>
 
