@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
+import Image from 'next/image'
 
 function description() {
   return (
@@ -8,26 +9,47 @@ function description() {
           <div className="relative">
             {/* Background Image */}
             <div className="absolute inset-0 opacity-40">
-              <img
-                src="https://app.eva.gg/assets/presentation-dPUHnZE5.png"
+              <Image
+                src="/games/vR-super-agent.jpg"
                 alt="Battle Arena"
                 className="w-full h-full object-cover rounded-3xl"
+                fill
               />
             </div>
 
             {/* Content */}
             <div className="relative z-10 text-center py-20 px-8">
-              <h2 className="text-white text-5xl md:text-6xl font-black mb-4">AFTER-H BATTLE ARENA</h2>
-              <p className="text-[#fc9937] text-2xl font-bold mb-8 tracking-wide">FPS ORIGINAL FREE ROAMING</p>
+              <h2 className="text-white text-5xl md:text-6xl font-black mb-4">VR SUPER AGENT</h2>
+              {/* <p className="text-[#fc9937] text-2xl font-bold mb-8 tracking-wide">FPS ORIGINAL FREE ROAMING</p> */}
               <p className="text-white text-lg leading-relaxed max-w-3xl mx-auto mb-12">
-                Entrez dans un monde post-apocalyptique où seuls les plus stratégiques survivent. Affrontez vos
-                adversaires dans des combats intenses en équipe, utilisez votre environnement à votre avantage et
-                dominez l'arène. Chaque partie est unique, chaque décision compte. Êtes-vous prêt à relever le défi ?
+                Un jeu d'action et d'espionnage où les joueurs incarnent des agents spéciaux accomplissant des missions secrètes, avec tir, infiltration et défis tactiques.
               </p>
+              <div className="max-w-3xl mx-auto mb-12">
+                <h3 className="text-[#fc9937] text-2xl md:text-3xl font-bold mb-6 text-left">Fonctionnalités</h3>
+                <ul className="text-white text-lg leading-relaxed space-y-3">
+                  <li className="flex items-start">
+                    <span className="text-[#fc9937] mr-3 mt-1.5">▸</span>
+                    <span>Missions d'espionnage interactives</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#fc9937] mr-3 mt-1.5">▸</span>
+                    <span>Tir de précision en VR</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#fc9937] mr-3 mt-1.5">▸</span>
+                    <span>Déplacements rapides et scènes d'infiltration</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#fc9937] mr-3 mt-1.5">▸</span>
+                    <span>Mode coopératif ou duel</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#fc9937] mr-3 mt-1.5">▸</span>
+                    <span>Interactions avec gadgets (scanner, pistolet, accessoires d'agent secret)</span>
+                  </li>
+                </ul>
+              </div>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button className="bg-gray-800 hover:bg-gray-700 text-white font-bold px-8 py-6 rounded-lg">
-                  EN SAVOIR PLUS
-                </Button>
                 <Button className="bg-[#fc9937] hover:bg-[#4B2FEF] text-white font-bold px-8 py-6 rounded-lg">
                   RÉSERVER LE COMBAT
                 </Button>
