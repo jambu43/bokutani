@@ -251,7 +251,7 @@ const index = () => {
               Nous Contactez
             </Link>
             <Link  
-              href="/contact" 
+              href="/reserver" 
               className={`hidden md:inline-block px-4 lg:px-6 py-2 text-sm lg:text-base font-medium transition-all rounded-xl ${
                 isScrolled 
                   ? "bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white shadow-md" 
