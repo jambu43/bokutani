@@ -234,7 +234,7 @@ const index = () => {
                 alt="Bokutani" 
                 width={200} 
                 height={200}
-                className="relative top-[4rem] w-[300px] h-auto md:w-[450px] max-w-[50vw] md:max-w-none drop-shadow-lg"
+                className="relative top-[1rem] md:top-[4rem] w-[300px] h-auto md:w-[450px] max-w-[50vw] md:max-w-none drop-shadow-lg"
                 priority
               />
             </div>
