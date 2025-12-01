@@ -164,9 +164,9 @@ const index = () => {
       <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}>
-        <nav className="container mx-auto px-6 py-6 flex items-center justify-between max-w-full overflow-hidden">
+        <nav className="container mx-auto px-4 md:px-6 py-4 md:py-6 flex items-center justify-between max-w-full relative">
           {/* Left side - Menu icon and navigation */}
-          <div className="flex items-center space-x-2 md:space-x-8 flex-shrink-0">
+          <div className="flex items-center space-x-2 md:space-x-4 flex-shrink-0 z-10">
             <button
               onClick={() => setIsMenuOpen(true)}
               className={`transition-colors ${
@@ -190,10 +190,10 @@ const index = () => {
                 <line x1="3" y1="18" x2="21" y2="18"></line>
               </svg>
             </button>
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex space-x-4 lg:space-x-6">
               <Link
                 href="/jeux-vr"
-                className={`transition-colors ${
+                className={`text-sm lg:text-base transition-colors ${
                   isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
                 }`}
               >
@@ -201,47 +201,63 @@ const index = () => {
               </Link>
               <Link
                 href="/bar"
-                className={`transition-colors ${
+                className={`text-sm lg:text-base transition-colors ${
                   isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
                 }`}
               >
                Restaurant
               </Link>
-              <Link
+              {/* <Link
                 href="/#"
-                className={`transition-colors ${
+                className={`text-sm lg:text-base transition-colors ${
                   isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
                 }`}
               >
                 Événements
-              </Link>
+              </Link> */}
             </div>
           </div>
 
-         <Link href="/" className={`transition-colors flex-shrink-0 ${
-           isScrolled ? "opacity-100" : "opacity-100"
-         }`}>
-         <Image 
-           src="/logo-bokutani.svg" 
-           alt="Bokutani" 
-           width={200} 
-           height={200}
-           className="w-[200px] h-auto md:w-[350px] max-w-[50vw] md:max-w-none"
-         />
-         </Link>
+          {/* Logo - Centered and Superimposed */}
+          <Link 
+            href="/" 
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20 transition-all duration-300"
+          >
+            <div className={`relative transition-all duration-300 ${
+              isScrolled ? "opacity-100" : "opacity-100"
+            }`}>
+              <div className={`absolute t-4 inset-0 blur-xl opacity-20 transition-opacity duration-300 ${
+                isScrolled ? "bg-white" : "bg-white"
+              }`}></div>
+              <Image 
+                src="/logo-bokutani.svg" 
+                alt="Bokutani" 
+                width={200} 
+                height={200}
+                className="relative top-[4rem] w-[300px] h-auto md:w-[450px] max-w-[50vw] md:max-w-none drop-shadow-lg"
+                priority
+              />
+            </div>
+          </Link>
 
           {/* Right side - User and CTA */}
-          <div className="flex items-center space-x-2 md:space-x-4 flex-shrink-0">
-            <Link href="/contact" className={`hidden md:inline-block px-4 py-2 transition-colors ${
-              isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
-            }`}>
+          <div className="flex items-center space-x-2 md:space-x-3 flex-shrink-0 z-10">
+            <Link 
+              href="/contact" 
+              className={`hidden md:inline-block px-3 lg:px-4 py-2 text-sm lg:text-base transition-colors ${
+                isScrolled ? "text-black hover:text-gray-600" : "text-white hover:text-gray-300"
+              }`}
+            >
               Nous Contactez
             </Link>
-            <Link  href="/contact" className={`hidden md:inline-block px-6 py-2 font-medium transition-colors rounded-xl hidden-md ${
-              isScrolled 
-                ? "bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white" 
-                : "bg-white hover:bg-gray-100 text-black"
-            }`}>
+            <Link  
+              href="/contact" 
+              className={`hidden md:inline-block px-4 lg:px-6 py-2 text-sm lg:text-base font-medium transition-all rounded-xl ${
+                isScrolled 
+                  ? "bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white shadow-md" 
+                  : "bg-white hover:bg-gray-100 text-black shadow-lg"
+              }`}
+            >
               RÉSERVER
             </Link>
           </div>
