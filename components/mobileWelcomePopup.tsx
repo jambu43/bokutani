@@ -102,7 +102,7 @@ const MobileWelcomePopup = () => {
         {/* Bouton Naviguer avec animation d'entrée */}
         {/* <button
           onClick={handleNavigate}
-          className={`px-8 py-4 bg-[#fc9937] hover:bg-[#fc9937]/90 text-white font-bold text-lg rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg ${
+          className={`px-8 py-4 bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white font-bold text-lg rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg ${
             logoVisible 
               ? "opacity-100 translate-y-0" 
               : "opacity-0 translate-y-4"

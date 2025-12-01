@@ -8,7 +8,7 @@ function events() {
         <div className="text-center mb-16">
           <h4 className="text-3xl md:text-4xl font-black mb-6">
             <span className="text-black">CÉLÉBREZ </span>
-            <span className="text-[#fc9937]">L'OCCASION</span>
+            <span className="text-[#0ba0da]">L'OCCASION</span>
           </h4>
           <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
             Une arène rien que pour vous. Privatisez Bokutani et transformez votre
@@ -34,7 +34,7 @@ function events() {
               <p className="text-gray-200 text-sm mb-6 text-center">
                 Pour les rencontres immersives, événements en présentiel, networking, démonstrations technologiques et expériences VR.
                 </p>
-              <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
+              <button className="w-full py-3 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
               </button>
             </div>
@@ -58,7 +58,7 @@ function events() {
                 Sessions de jeu et tournées de shots : ce qui se passe chez BOKUTANI
                 reste chez BOKUTANI...
               </p>
-              <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
+              <button className="w-full py-3 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
               </button>
             </div>
@@ -81,7 +81,7 @@ function events() {
               <p className="text-gray-200 text-sm mb-6 text-center">
                 Après le travail, place à la détente : partagez un moment convivial avec vos collègues dans une expérience VR inoubliable !
               </p>
-              <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
+              <button className="w-full py-3 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
               </button>
             </div>

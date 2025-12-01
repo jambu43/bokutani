@@ -47,7 +47,7 @@ function Games() {
                     <button className="w-full py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors text-xs">
                       EN SAVOIR PLUS
                     </button>
-                    <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white rounded-lg transition-colors text-xs">
+                    <button className="w-full py-3 bg-[#0ba0da] hover:bg-[#0ba0da] text-white rounded-lg transition-colors text-xs">
                       RÉSERVER
                     </button>
                   </div>
@@ -81,7 +81,7 @@ function Games() {
                     <button className="w-full py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors text-xs">
                       EN SAVOIR PLUS
                     </button>
-                    <button className="w-full py-2 bg-[#fc9937] hover:bg-[#fc9937] text-white rounded-lg transition-colors text-xs">
+                    <button className="w-full py-2 bg-[#0ba0da] hover:bg-[#0ba0da] text-white rounded-lg transition-colors text-xs">
                       RÉSERVER
                     </button>
                   </div>

@@ -42,7 +42,7 @@ const index = () => {
               <Link 
                 href="/reservation" 
                 onClick={() => setIsMenuOpen(false)}
-                className="w-full z-10 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold text-lg py-4 px-6 rounded-lg mb-8 transition-colors">
+                className="w-full z-10 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-bold text-lg py-4 px-6 rounded-lg mb-8 transition-colors">
                 RÉSERVER
               </Link>
 
@@ -239,7 +239,7 @@ const index = () => {
             </Link>
             <Link  href="/contact" className={`hidden md:inline-block px-6 py-2 font-medium transition-colors rounded-xl hidden-md ${
               isScrolled 
-                ? "bg-[#fc9937] hover:bg-[#fc9937]/90 text-white" 
+                ? "bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white" 
                 : "bg-white hover:bg-gray-100 text-black"
             }`}>
               RÉSERVER

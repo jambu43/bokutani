@@ -134,7 +134,7 @@ export default function HoteleriePage() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#fc9937] via-[#fc9937] to-[#fc9937] text-black">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0ba0da] via-[#0ba0da] to-[#0ba0da] text-black">
           <Image
             src="/gallery-2-bokutani.jpg"
             alt="Chalets urbains BOKUTANI"
@@ -152,7 +152,7 @@ export default function HoteleriePage() {
             Découvrez nos chalets urbains luxueux et nos espaces de
             rassemblement uniques au cœur de Kinshasa
           </p>
-          <Button className="bg-white text-[#fc9937] hover:bg-gray-100 text-lg px-8 py-6 h-auto font-bold">
+          <Button className="bg-white text-[#0ba0da] hover:bg-gray-100 text-lg px-8 py-6 h-auto font-bold">
             EXPLORER NOS HÉBERGEMENTS
           </Button>
         </div>
@@ -165,7 +165,7 @@ export default function HoteleriePage() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-5xl font-black mb-6">
-                VOTRE <span className="text-[#fc9937]">REFUGE URBAIN</span>
+                VOTRE <span className="text-[#0ba0da]">REFUGE URBAIN</span>
                 <br />À KINSHASA
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -180,7 +180,7 @@ export default function HoteleriePage() {
                 d'entreprise ou des vacances en famille, nos espaces sont conçus
                 pour créer des moments inoubliables.
               </p>
-              <Button className="bg-[#fc9937] hover:bg-[#4A2FCC] text-white text-lg px-8 py-6 h-auto">
+              <Button className="bg-[#0ba0da] hover:bg-[#4A2FCC] text-white text-lg px-8 py-6 h-auto">
                 DÉCOUVRIR NOS OFFRES
               </Button>
             </div>
@@ -201,7 +201,7 @@ export default function HoteleriePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-black mb-6">
-              NOS <span className="text-[#fc9937]">CHALETS URBAINS</span>
+              NOS <span className="text-[#0ba0da]">CHALETS URBAINS</span>
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               Chaque chalet est une oasis de confort, équipé de toutes les
@@ -219,7 +219,7 @@ export default function HoteleriePage() {
                   fill
                   className="object-cover"
                 />
-                <div className="absolute top-4 right-4 bg-[#fc9937] text-white px-4 py-2 rounded-full font-bold">
+                <div className="absolute top-4 right-4 bg-[#0ba0da] text-white px-4 py-2 rounded-full font-bold">
                   STANDARD
                 </div>
               </div>
@@ -231,36 +231,36 @@ export default function HoteleriePage() {
                 </p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Users className="w-5 h-5 text-[#fc9937]" />
+                    <Users className="w-5 h-5 text-[#0ba0da]" />
                     <span>2 personnes</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Wifi className="w-5 h-5 text-[#fc9937]" />
+                    <Wifi className="w-5 h-5 text-[#0ba0da]" />
                     <span>WiFi haut débit</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Tv className="w-5 h-5 text-[#fc9937]" />
+                    <Tv className="w-5 h-5 text-[#0ba0da]" />
                     <span>TV écran plat</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Wind className="w-5 h-5 text-[#fc9937]" />
+                    <Wind className="w-5 h-5 text-[#0ba0da]" />
                     <span>Climatisation</span>
                   </li>
                 </ul>
                 <div className="flex items-baseline gap-2 mb-6">
-                  <span className="text-3xl font-black text-[#fc9937]">
+                  <span className="text-3xl font-black text-[#0ba0da]">
                     $80
                   </span>
                   <span className="text-gray-600">/nuit</span>
                 </div>
-                <Button className="w-full bg-[#fc9937] hover:bg-[#4A2FCC] text-white">
+                <Button className="w-full bg-[#0ba0da] hover:bg-[#4A2FCC] text-white">
                   RÉSERVER
                 </Button>
               </div>
             </div>
 
             {/* Chalet Familial */}
-            <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow border-4 border-[#fc9937]">
+            <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow border-4 border-[#0ba0da]">
               <div className="relative h-64">
                 <Image
                   src="/chalet-familial-bokutani.jpg"
@@ -268,7 +268,7 @@ export default function HoteleriePage() {
                   fill
                   className="object-cover"
                 />
-                <div className="absolute top-4 right-4 bg-[#fc9937] text-white px-4 py-2 rounded-full font-bold">
+                <div className="absolute top-4 right-4 bg-[#0ba0da] text-white px-4 py-2 rounded-full font-bold">
                   POPULAIRE
                 </div>
               </div>
@@ -280,29 +280,29 @@ export default function HoteleriePage() {
                 </p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Users className="w-5 h-5 text-[#fc9937]" />
+                    <Users className="w-5 h-5 text-[#0ba0da]" />
                     <span>4-6 personnes</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Wifi className="w-5 h-5 text-[#fc9937]" />
+                    <Wifi className="w-5 h-5 text-[#0ba0da]" />
                     <span>WiFi haut débit</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Tv className="w-5 h-5 text-[#fc9937]" />
+                    <Tv className="w-5 h-5 text-[#0ba0da]" />
                     <span>2 TV écran plat</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Coffee className="w-5 h-5 text-[#fc9937]" />
+                    <Coffee className="w-5 h-5 text-[#0ba0da]" />
                     <span>Kitchenette équipée</span>
                   </li>
                 </ul>
                 <div className="flex items-baseline gap-2 mb-6">
-                  <span className="text-3xl font-black text-[#fc9937]">
+                  <span className="text-3xl font-black text-[#0ba0da]">
                     $150
                   </span>
                   <span className="text-gray-600">/nuit</span>
                 </div>
-                <Button className="w-full bg-[#fc9937] hover:bg-[#4A2FCC] text-white">
+                <Button className="w-full bg-[#0ba0da] hover:bg-[#4A2FCC] text-white">
                   RÉSERVER
                 </Button>
               </div>
@@ -330,29 +330,29 @@ export default function HoteleriePage() {
                 </p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Users className="w-5 h-5 text-[#fc9937]" />
+                    <Users className="w-5 h-5 text-[#0ba0da]" />
                     <span>6-8 personnes</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Wifi className="w-5 h-5 text-[#fc9937]" />
+                    <Wifi className="w-5 h-5 text-[#0ba0da]" />
                     <span>WiFi ultra-rapide</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Tv className="w-5 h-5 text-[#fc9937]" />
+                    <Tv className="w-5 h-5 text-[#0ba0da]" />
                     <span>Home cinéma</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Coffee className="w-5 h-5 text-[#fc9937]" />
+                    <Coffee className="w-5 h-5 text-[#0ba0da]" />
                     <span>Cuisine complète</span>
                   </li>
                 </ul>
                 <div className="flex items-baseline gap-2 mb-6">
-                  <span className="text-3xl font-black text-[#fc9937]">
+                  <span className="text-3xl font-black text-[#0ba0da]">
                     $250
                   </span>
                   <span className="text-gray-600">/nuit</span>
                 </div>
-                <Button className="w-full bg-[#fc9937] hover:bg-[#4A2FCC] text-white">
+                <Button className="w-full bg-[#0ba0da] hover:bg-[#4A2FCC] text-white">
                   RÉSERVER
                 </Button>
               </div>
@@ -362,7 +362,7 @@ export default function HoteleriePage() {
       </section>
 
       {/* Zones de Rassemblement Section */}
-      <section className="py-24 px-6 bg-gradient-to-br from-[#fc9937] to-[#7C3FFF] text-white">
+      <section className="py-24 px-6 bg-gradient-to-br from-[#0ba0da] to-[#7C3FFF] text-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-black mb-6">
@@ -412,7 +412,7 @@ export default function HoteleriePage() {
                     <span>Service traiteur disponible</span>
                   </li>
                 </ul>
-                <Button className="w-full bg-white text-[#fc9937] hover:bg-gray-100">
+                <Button className="w-full bg-white text-[#0ba0da] hover:bg-gray-100">
                   DEMANDER UN DEVIS
                 </Button>
               </div>
@@ -455,7 +455,7 @@ export default function HoteleriePage() {
                     <span>Restauration sur mesure</span>
                   </li>
                 </ul>
-                <Button className="w-full bg-white text-[#fc9937] hover:bg-gray-100">
+                <Button className="w-full bg-white text-[#0ba0da] hover:bg-gray-100">
                   DEMANDER UN DEVIS
                 </Button>
               </div>
@@ -498,7 +498,7 @@ export default function HoteleriePage() {
                     <span>Espace climatisé naturellement</span>
                   </li>
                 </ul>
-                <Button className="w-full bg-white text-[#fc9937] hover:bg-gray-100">
+                <Button className="w-full bg-white text-[#0ba0da] hover:bg-gray-100">
                   DEMANDER UN DEVIS
                 </Button>
               </div>
@@ -538,7 +538,7 @@ export default function HoteleriePage() {
                     <span>Service de restauration VIP</span>
                   </li>
                 </ul>
-                <Button className="w-full bg-white text-[#fc9937] hover:bg-gray-100">
+                <Button className="w-full bg-white text-[#0ba0da] hover:bg-gray-100">
                   DEMANDER UN DEVIS
                 </Button>
               </div>
@@ -552,7 +552,7 @@ export default function HoteleriePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-black mb-6">
-              <span className="text-[#fc9937]">GALERIE</span> PHOTOS
+              <span className="text-[#0ba0da]">GALERIE</span> PHOTOS
             </h2>
             <p className="text-xl text-gray-700">
               Découvrez nos espaces en images
@@ -618,14 +618,14 @@ export default function HoteleriePage() {
           <h2 className="text-5xl font-black mb-6">
             PRÊT À RÉSERVER VOTRE
             <br />
-            <span className="text-[#fc9937]">SÉJOUR À BOKUTANI ?</span>
+            <span className="text-[#0ba0da]">SÉJOUR À BOKUTANI ?</span>
           </h2>
           <p className="text-xl text-gray-300 mb-8">
             Contactez-nous dès maintenant pour réserver votre chalet ou votre
             espace événementiel
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-[#fc9937] hover:bg-[#4A2FCC] text-white text-lg px-8 py-6 h-auto">
+            <Button className="bg-[#0ba0da] hover:bg-[#4A2FCC] text-white text-lg px-8 py-6 h-auto">
               RÉSERVER UN CHALET
             </Button>
             <Button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 text-lg px-8 py-6 h-auto bg-transparent">

@@ -7,7 +7,7 @@ function news() {
           {/* Header */}
           <div className="text-center mb-12">
             <h4 className="text-5xl md:text-6xl font-black mb-4">
-              <span className="text-[#fc9937]">ACTUS</span> <span className="text-black">Bokutani</span>
+              <span className="text-[#0ba0da]">ACTUS</span> <span className="text-black">Bokutani</span>
             </h4>
             <p className="text-gray-700 text-lg">Suivez les dernières événements et mises à jours de nos jeux.</p>
           </div>
@@ -24,7 +24,7 @@ function news() {
                 />
               </div>
               <div className="space-y-2">
-                <span className="text-[#fc9937] font-bold text-sm">BLOG</span>
+                <span className="text-[#0ba0da] font-bold text-sm">BLOG</span>
                 <h5 className="text-2xl font-black text-black">PATCH NOTE 1.6.4</h5>
                 <p className="text-gray-600">Patch note 1.6.4 - Nouvelles features et correctifs</p>
               </div>
@@ -40,7 +40,7 @@ function news() {
                 />
               </div>
               <div className="space-y-2">
-                <span className="text-[#fc9937] font-bold text-sm">BLOG</span>
+                <span className="text-[#0ba0da] font-bold text-sm">BLOG</span>
                 <h5 className="text-2xl font-black text-black">PATCH NOTE 1.6.3 & 0.5.11</h5>
                 <p className="text-gray-600">Patch note 1.6.3 & 0.5.11 - Nouvelles features et correctifs</p>
               </div>
@@ -56,7 +56,7 @@ function news() {
                 />
               </div>
               <div className="space-y-2">
-                <span className="text-[#fc9937] font-bold text-sm">BLOG</span>
+                <span className="text-[#0ba0da] font-bold text-sm">BLOG</span>
                 <h5 className="text-2xl font-black text-black">PATCH NOTE 1.6.2</h5>
                 <p className="text-gray-600">Patch note 1.6.2 - Nouvelles features et correctifs</p>
               </div>

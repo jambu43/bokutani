@@ -9,14 +9,14 @@ function flex() {
         <h3 className="text-2xl md:text-4xl lg:text-4xl font-black mb-6">
           <span className="text-black">LA BOUFFE </span>
           <br />
-          <span className="text-[#fc9937]">EN RÉALITÉ AUGMENTÉE</span>
+          <span className="text-[#0ba0da]">EN RÉALITÉ AUGMENTÉE</span>
         </h3>
         <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto mb-8">
           Découvrez une toute nouvelle manière de jouer aux fléchettes ! Défis exclusifs, modes interactifs : visez
           juste, marquez des points, prenez l'avantage. En solo, entre amis ou en équipe, chaque partie est
           différente.
         </p>
-        <Button className="bg-[#fc9937] hover:bg-[#4B2FEF] text-white font-bold px-2 py-2 rounded-full text-sm">
+        <Button className="bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold px-2 py-2 rounded-full text-sm">
           EN SAVOIR PLUS
         </Button>
       </div>

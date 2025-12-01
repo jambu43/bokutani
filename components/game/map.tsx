@@ -11,7 +11,7 @@ function Maps() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Outlaw Map */}
-        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
+        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#0ba0da] transition-colors">
           <img src="https://cdn.eva.gg/games/after-h/maps/240000/main.webp" alt="Outlaw" className="w-full h-72 object-cover" />
           <div className="p-6">
             <h4 className="text-white text-2xl font-black mb-3">OUTLAW</h4>
@@ -23,7 +23,7 @@ function Maps() {
               <Button className="w-full bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-2 rounded-lg text-xs">
                 DÉCOUVRIR LA CARTE
               </Button>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
                 RÉSERVER
               </Button>
             </div>
@@ -31,7 +31,7 @@ function Maps() {
         </div>
 
         {/* Ceres Map */}
-        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
+        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#0ba0da] transition-colors">
           <img src="https://cdn.eva.gg/games/after-h/maps/220000/main.webp" alt="Ceres" className="w-full h-72 object-cover" />
           <div className="p-6">
             <h4 className="text-white text-2xl font-black mb-3">CERES</h4>
@@ -43,7 +43,7 @@ function Maps() {
               <Button className="w-full bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 rounded-lg text-xs">
                 DÉCOUVRIR LA CARTE
               </Button>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
                 RÉSERVER
               </Button>
             </div>
@@ -51,7 +51,7 @@ function Maps() {
         </div>
 
         {/* Artefact 1 Map */}
-        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
+        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#0ba0da] transition-colors">
           <img src="https://cdn.eva.gg/games/after-h/maps/230000/main.webp" alt="Artefact 1" className="w-full h-72 object-cover" />
           <div className="p-6">
             <h4 className="text-white text-2xl font-black mb-3">ARTEFACT 1</h4>
@@ -63,7 +63,7 @@ function Maps() {
               <Button className="w-full bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 rounded-lg text-xs">
                 DÉCOUVRIR LA CARTE
               </Button>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
                 RÉSERVER
               </Button>
             </div>
@@ -71,7 +71,7 @@ function Maps() {
         </div>
 
         {/* The Cliff Map */}
-        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#fc9937] transition-colors">
+        <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#0ba0da] transition-colors">
           <img src="/cliff-side-town-with-buildings-and-sunset-sky.jpg" alt="The Cliff" className="w-full h-72 object-cover" />
           <div className="p-6">
             <h4 className="text-white text-2xl font-black mb-3">THE CLIFF</h4>
@@ -83,7 +83,7 @@ function Maps() {
               <Button className="w-full bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 rounded-lg text-xs">
                 DÉCOUVRIR LA CARTE
               </Button>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold py-2 px-2 rounded-lg text-xs">
                 RÉSERVER
               </Button>
             </div>
@@ -93,7 +93,7 @@ function Maps() {
 
       {/* Pagination Dots */}
       <div className="flex justify-center gap-2 mt-8">
-        <div className="w-2 h-2 rounded-full bg-[#fc9937]" />
+        <div className="w-2 h-2 rounded-full bg-[#0ba0da]" />
         <div className="w-2 h-2 rounded-full bg-gray-600" />
         <div className="w-2 h-2 rounded-full bg-gray-600" />
       </div>

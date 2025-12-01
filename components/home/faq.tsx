@@ -7,7 +7,7 @@ function faq() {
       <div className="max-w-4xl mx-auto">
       {/* Header */}
       <div className="text-center mb-12">
-        <h4 className="text-6xl md:text-7xl font-black text-[#fc9937] mb-6">FAQ</h4>
+        <h4 className="text-6xl md:text-7xl font-black text-[#0ba0da] mb-6">FAQ</h4>
         <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
           Tout ce que vous devez savoir avant d'entrer dans l'arène ! Retrouvez ici les réponses à vos questions
           pour profiter pleinement de l'expérience Bokutani.

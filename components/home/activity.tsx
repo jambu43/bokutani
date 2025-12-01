@@ -7,7 +7,7 @@ function activity() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h4 className="text-2xl md:text-4xl lg:text-4xl font-black mb-6">
-              <span className="text-[#fc9937]">APPUYEZ</span> <span className="text-black">SUR LA DÉTENTE</span>
+              <span className="text-[#0ba0da]">APPUYEZ</span> <span className="text-black">SUR LA DÉTENTE</span>
             </h4>
             <p className="text-gray-700 text-md leading-relaxed max-w-3xl mx-auto font-light">
               Partagez un verre ou un plat, puis défiez vos amis aux fléchettes en réalité augmentée. Afterworks, happy
@@ -31,7 +31,7 @@ function activity() {
                 <p className="text-gray-200 text-sm mb-6 text-center font-light">
                 Les joueurs éliminent leurs adversaires en les touchant avec des billes de peinture lancées par des « lanceurs de paintball » 
                 </p>
-                <button className="w-full py-2 bg-[#fc9937] hover:bg-[#fc9937] text-white font-light rounded-lg transition-colors text-sm">
+                <button className="w-full py-2 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-light rounded-lg transition-colors text-sm">
                   EN SAVOIR PLUS
                 </button>
               </div>
@@ -50,7 +50,7 @@ function activity() {
               <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
                 <h5 className="text-2xl md:text-2xl lg:text-2xl font-black mb-3 text-center">CHALETS URBAINS</h5>
                 <p className="text-gray-200 text-sm mb-6 text-center font-light">L'endroit idéal pour trinquer et partager un bon moment.</p>
-                <button className="w-full py-2 bg-[#fc9937] hover:bg-[#fc9937] text-white font-light rounded-lg transition-colors text-sm">
+                <button className="w-full py-2 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-light rounded-lg transition-colors text-sm">
                   EN SAVOIR PLUS
                 </button>
               </div>
@@ -71,7 +71,7 @@ function activity() {
                 <p className="text-gray-200 text-sm mb-6 text-center font-light">
                  Chez Bokutani, étente grâce à diverses attractions nautiques comme des piscines à vagues, des toboggans
                 </p>
-                <button className="w-full py-2 bg-[#fc9937] hover:bg-[#fc9937] text-white font-light rounded-lg transition-colors text-sm">
+                <button className="w-full py-2 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-light rounded-lg transition-colors text-sm">
                   EN SAVOIR PLUS
                 </button>
               </div>

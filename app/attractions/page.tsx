@@ -53,7 +53,7 @@ export default function Attractions() {
         <div 
           className="absolute inset-0" 
           style={{
-            background: 'linear-gradient(180deg,#fc9937,rgba(75,17,226,.02))'
+            background: 'linear-gradient(180deg,#0ba0da,rgba(75,17,226,.02))'
           }}
         ></div>
       </div>
@@ -78,7 +78,7 @@ export default function Attractions() {
           <div className="px-12 py-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black" >
               ACTIVITÉS POUR LES
-              <span className="block text-[#fc9937]">ENFANTS</span>
+              <span className="block text-[#0ba0da]">ENFANTS</span>
             </h2>
             <p className="text-lg text-gray-700 mb-6">
               Un univers magique conçu spécialement pour les plus jeunes ! De 3 à 12 ans, vos enfants découvriront des
@@ -86,19 +86,19 @@ export default function Attractions() {
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3">
-                <Waves className="text-[#fc9937] w-6 h-6" />
+                <Waves className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">Parc aquatique avec toboggans adaptés</span>
               </li>
               <li className="flex items-center gap-3">
-                <Sparkles className="text-[#fc9937] w-6 h-6" />
+                <Sparkles className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">Kukule Land - Aire de jeux intérieur</span>
               </li>
               <li className="flex items-center gap-3">
-                <Gamepad2 className="text-[#fc9937] w-6 h-6" />
+                <Gamepad2 className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">Aire de jeux extérieur (3 à 12 ans)</span>
               </li>
             </ul>
-            <Button className="bg-[#fc9937] hover:bg-[#fc9937] text-white px-8 py-6 text-lg">
+            <Button className="bg-[#0ba0da] hover:bg-[#0ba0da] text-white px-8 py-6 text-lg">
               RÉSERVER POUR LES ENFANTS
             </Button>
           </div>
@@ -128,7 +128,7 @@ export default function Attractions() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Organisez votre événement privé dans notre parc d'attractions
           </p>
-          <Button className="bg-[#fc9937] hover:bg-[#fc9937] text-white px-8 py-6 text-lg">DEMANDER UN DEVIS</Button>
+          <Button className="bg-[#0ba0da] hover:bg-[#0ba0da] text-white px-8 py-6 text-lg">DEMANDER UN DEVIS</Button>
         </div>
       </section>
 
@@ -138,7 +138,7 @@ export default function Attractions() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black">
               ACTIVITÉS POUR LES
-              <span className="block text-[#fc9937]">ADOLESCENTS</span>
+              <span className="block text-[#0ba0da]">ADOLESCENTS</span>
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               Des sensations fortes et des défis excitants pour les ados ! Adrénaline, compétition et fun garantis.
@@ -261,7 +261,7 @@ export default function Attractions() {
           <div className="px-12 py-16 order-1 md:order-2">
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black">
               ACTIVITÉS POUR LES
-              <span className="block text-[#fc9937]">ADULTES</span>
+              <span className="block text-[#0ba0da]">ADULTES</span>
             </h2>
             <p className="text-lg text-gray-700 mb-6">
               Détente, adrénaline ou compétition ? Choisissez votre expérience ! BOKUTANI propose des activités variées
@@ -269,27 +269,27 @@ export default function Attractions() {
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3">
-                <Waves className="text-[#fc9937] w-6 h-6" />
+                <Waves className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">Parc aquatique avec zones de détente</span>
               </li>
               <li className="flex items-center gap-3">
-                <Target className="text-[#fc9937] w-6 h-6" />
+                <Target className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">Laser Quest et Paintball</span>
               </li>
               <li className="flex items-center gap-3">
-                <Car className="text-[#fc9937] w-6 h-6" />
+                <Car className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">E-Kart - Course électrique</span>
               </li>
               <li className="flex items-center gap-3">
-                <Headset className="text-[#fc9937] w-6 h-6" />
+                <Headset className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">Réalité Virtuelle - Expériences immersives</span>
               </li>
               <li className="flex items-center gap-3">
-                <Sparkles className="text-[#fc9937] w-6 h-6" />
+                <Sparkles className="text-[#0ba0da] w-6 h-6" />
                 <span className="text-lg text-black">Espace détente et massages</span>
               </li>
             </ul>
-            <Button className="bg-[#fc9937] hover:bg-[#fc9937] text-white px-8 py-6 text-lg">
+            <Button className="bg-[#0ba0da] hover:bg-[#0ba0da] text-white px-8 py-6 text-lg">
               RÉSERVER MAINTENANT
             </Button>
           </div>
@@ -302,7 +302,7 @@ export default function Attractions() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 text-black">
               ESPACE
-              <span className="block text-[#fc9937]">DÉTENTE & BIEN-ÊTRE</span>
+              <span className="block text-[#0ba0da]">DÉTENTE & BIEN-ÊTRE</span>
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               Après l'adrénaline, place à la relaxation ! Profitez de notre espace bien-être pour vous ressourcer et
@@ -323,8 +323,8 @@ export default function Attractions() {
               <h3 className="text-3xl font-bold mb-6 text-black">Nos Services de Détente</h3>
               <div className="space-y-6">
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#fc9937]/10 flex items-center justify-center flex-shrink-0">
-                    <Sparkles className="text-[#fc9937] w-6 h-6" />
+                  <div className="w-12 h-12 rounded-full bg-[#0ba0da]/10 flex items-center justify-center flex-shrink-0">
+                    <Sparkles className="text-[#0ba0da] w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="text-xl font-bold mb-2 text-black">Massages Professionnels</h4>
@@ -334,8 +334,8 @@ export default function Attractions() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#fc9937]/10 flex items-center justify-center flex-shrink-0">
-                    <Sparkles className="text-[#fc9937] w-6 h-6" />
+                  <div className="w-12 h-12 rounded-full bg-[#0ba0da]/10 flex items-center justify-center flex-shrink-0">
+                    <Sparkles className="text-[#0ba0da] w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="text-xl font-bold mb-2 text-black">Sauna & Hammam</h4>
@@ -343,8 +343,8 @@ export default function Attractions() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#fc9937]/10 flex items-center justify-center flex-shrink-0">
-                    <Sparkles className="text-[#fc9937] w-6 h-6" />
+                  <div className="w-12 h-12 rounded-full bg-[#0ba0da]/10 flex items-center justify-center flex-shrink-0">
+                    <Sparkles className="text-[#0ba0da] w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="text-xl font-bold mb-2 text-black">Salon de Thé</h4>
@@ -352,8 +352,8 @@ export default function Attractions() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#fc9937]/10 flex items-center justify-center flex-shrink-0">
-                    <Sparkles className="text-[#fc9937] w-6 h-6" />
+                  <div className="w-12 h-12 rounded-full bg-[#0ba0da]/10 flex items-center justify-center flex-shrink-0">
+                    <Sparkles className="text-[#0ba0da] w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="text-xl font-bold mb-2 text-black">Zones de Repos</h4>
@@ -361,7 +361,7 @@ export default function Attractions() {
                   </div>
                 </div>
               </div>
-              <Button className="bg-[#fc9937] hover:bg-[#fc9937] text-white px-8 py-6 text-lg mt-8">
+              <Button className="bg-[#0ba0da] hover:bg-[#0ba0da] text-white px-8 py-6 text-lg mt-8">
                 RÉSERVER UN MASSAGE
               </Button>
             </div>
@@ -373,7 +373,7 @@ export default function Attractions() {
       <section className="py-16 bg-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-black mb-6 text-black">NOS OFFRES VOUS ATTENDENT, CONTACTEZ-NOUS !</h2>
-          <Button className="bg-[#fc9937] hover:bg-[#fc9937] text-white px-8 py-6 text-lg">DEMANDER UN DEVIS</Button>
+          <Button className="bg-[#0ba0da] hover:bg-[#0ba0da] text-white px-8 py-6 text-lg">DEMANDER UN DEVIS</Button>
         </div>
       </section>
 
@@ -402,7 +402,7 @@ export default function Attractions() {
               <li>✓ Accès à l'espace détente</li>
               <li>✓ Parking gratuit</li>
             </ul>
-            <Button className="bg-[#fc9937] hover:bg-[#fc9937] text-white px-8 py-6 text-lg">VOIR NOS FORMULES</Button>
+            <Button className="bg-[#0ba0da] hover:bg-[#0ba0da] text-white px-8 py-6 text-lg">VOIR NOS FORMULES</Button>
           </div>
         </div>
       </section>
@@ -457,7 +457,7 @@ export default function Attractions() {
                   placeholder="Décrivez votre projet..."
                 ></textarea>
               </div>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#fc9937] text-white py-6 text-lg">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#0ba0da] text-white py-6 text-lg">
                 ENVOYER LA DEMANDE
               </Button>
             </form>
@@ -492,11 +492,11 @@ export default function Attractions() {
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#fc9937]/90 to-transparent flex items-end p-8">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0ba0da]/90 to-transparent flex items-end p-8">
                 <div>
                   <h3 className="text-3xl font-black text-white mb-2">TEAM BUILDING</h3>
                   <p className="text-white/90 mb-4">Renforcez la cohésion de vos équipes</p>
-                  <Button className="bg-white text-[#fc9937] hover:bg-gray-100">EN SAVOIR PLUS</Button>
+                  <Button className="bg-white text-[#0ba0da] hover:bg-gray-100">EN SAVOIR PLUS</Button>
                 </div>
               </div>
             </div>
@@ -508,11 +508,11 @@ export default function Attractions() {
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#fc9937]/90 to-transparent flex items-end p-8">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0ba0da]/90 to-transparent flex items-end p-8">
                 <div>
                   <h3 className="text-3xl font-black text-white mb-2">ÉVÉNEMENTS D'ENTREPRISE</h3>
                   <p className="text-white/90 mb-4">Séminaires, soirées et célébrations</p>
-                  <Button className="bg-white text-[#fc9937] hover:bg-gray-100">EN SAVOIR PLUS</Button>
+                  <Button className="bg-white text-[#0ba0da] hover:bg-gray-100">EN SAVOIR PLUS</Button>
                 </div>
               </div>
             </div>
@@ -521,7 +521,7 @@ export default function Attractions() {
       </section>
 
       {/* Location Section */}
-      <section className="py-20 bg-gradient-to-br from-[#fc9937] to-[#fc9937]">
+      <section className="py-20 bg-gradient-to-br from-[#0ba0da] to-[#0ba0da]">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-black text-white text-center mb-12">NOTRE PARC À KINSHASA</h2>
 
@@ -547,7 +547,7 @@ export default function Attractions() {
                     <span>Ouvert tous les jours de 9h à 21h</span>
                   </p>
                 </div>
-                <Button className="bg-white text-[#fc9937] hover:bg-gray-100 mt-8 px-8 py-6 text-lg">
+                <Button className="bg-white text-[#0ba0da] hover:bg-gray-100 mt-8 px-8 py-6 text-lg">
                   OBTENIR L'ITINÉRAIRE
                 </Button>
               </div>

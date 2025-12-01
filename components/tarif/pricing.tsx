@@ -89,13 +89,13 @@ function pricing() {
 
             {/* Links */}
             <div className="space-y-4">
-              <a href="#" className="block text-[#fc9937] text-sm hover:text-[#6B2EE8] transition-colors underline">
+              <a href="#" className="block text-[#0ba0da] text-sm hover:text-[#6B2EE8] transition-colors underline">
                 Voir la FAQ
               </a>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#fc9937]/90 text-white font-bold py-3 uppercase">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white font-bold py-3 uppercase">
                 RESERVER
               </Button>
-              <a href="#" className="block text-[#fc9937] text-sm hover:text-[#6B2EE8] transition-colors underline text-center">
+              <a href="#" className="block text-[#0ba0da] text-sm hover:text-[#6B2EE8] transition-colors underline text-center">
                 Consulter les conditions générales
               </a>
             </div>
@@ -183,10 +183,10 @@ function pricing() {
 
             {/* Links */}
             <div className="space-y-4">
-              <a href="#" className="block text-[#fc9937] text-sm hover:text-[#6B2EE8] transition-colors underline">
+              <a href="#" className="block text-[#0ba0da] text-sm hover:text-[#6B2EE8] transition-colors underline">
                 Voir la FAQ
               </a>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#fc9937]/90 text-white font-bold py-3 uppercase">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white font-bold py-3 uppercase">
                 RESERVER
               </Button>
             </div>
@@ -275,10 +275,10 @@ function pricing() {
 
             {/* Links */}
             <div className="space-y-4">
-              <a href="#" className="block text-[#fc9937] text-sm hover:text-[#6B2EE8] transition-colors underline">
+              <a href="#" className="block text-[#0ba0da] text-sm hover:text-[#6B2EE8] transition-colors underline">
                 Voir la FAQ
               </a>
-              <Button className="w-full bg-[#fc9937] hover:bg-[#fc9937]/90 text-white font-bold py-3 uppercase">
+              <Button className="w-full bg-[#0ba0da] hover:bg-[#0ba0da]/90 text-white font-bold py-3 uppercase">
                 RESERVER
               </Button>
             </div>

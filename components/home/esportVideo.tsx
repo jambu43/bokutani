@@ -7,7 +7,7 @@ function esportVideo() {
         {/* Header */}
         <div className="text-center mb-12">
           <h4 className="text-3xl md:text-4xl font-black mb-6">
-            <span className="text-[#fc9937]">LE FUTUR DU</span> {" "}
+            <span className="text-[#0ba0da]">LE FUTUR DU</span> {" "}
             <span className="text-white">VR EN RDC</span>
           </h4>
           <p className="text-white text-lg leading-relaxed max-w-3xl mx-auto mb-8">

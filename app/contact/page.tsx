@@ -33,7 +33,7 @@ export default function Contact() {
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-sm p-8">
           <p className="text-gray-700 mb-8">
             Pour une demande de privatisation ou d'organisation d'événement, nous vous invitons à cliquer{" "}
-            <Link href="/reservation" className="text-[#fc9937] underline hover:opacity-80">
+            <Link href="/reservation" className="text-[#0ba0da] underline hover:opacity-80">
               ici
             </Link>
             .
@@ -99,19 +99,19 @@ export default function Contact() {
             </div>
 
             {/* Submit Button */}
-            <Button type="submit" className="w-full bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold py-6 text-lg">
+            <Button type="submit" className="w-full bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-bold py-6 text-lg">
               CONFIRMER
             </Button>
 
             {/* Footer Links */}
             <div className="flex justify-center gap-6 text-sm">
-              <Link href="#" className="text-[#fc9937] hover:underline">
+              <Link href="#" className="text-[#0ba0da] hover:underline">
                 d'utilisation
               </Link>
-              <Link href="#" className="text-[#fc9937] hover:underline">
+              <Link href="#" className="text-[#0ba0da] hover:underline">
                 Politique de confidentialité
               </Link>
-              <Link href="#" className="text-[#fc9937] hover:underline">
+              <Link href="#" className="text-[#0ba0da] hover:underline">
                 Conditions
               </Link>
             </div>

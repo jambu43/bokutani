@@ -42,7 +42,7 @@ function testimony() {
           <h2 className="text-3xl md:text-4xl font-black text-black mb-6">
             <span className="text-black">ILS ONT ESSAYÉ,</span>
             <br />
-            <span className="text-[#fc9937]">ILS ONT VALIDÉ</span>
+            <span className="text-[#0ba0da]">ILS ONT VALIDÉ</span>
           </h2>
 
           <div className="flex items-center justify-center gap-2 text-lg">
@@ -68,7 +68,7 @@ function testimony() {
                 {testimonial.text}
               </p>
               <div className="text-center">
-                <h5 className="text-[#fc9937] font-black text-xl mb-2">
+                <h5 className="text-[#0ba0da] font-black text-xl mb-2">
                   {testimonial.reviewer}
                 </h5>
                 <p className="text-gray-600 text-sm mb-2">

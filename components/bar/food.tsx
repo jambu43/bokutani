@@ -7,7 +7,7 @@ function Food() {
         <div className="text-center mb-12">
           <h3 className="text-2xl md:text-4xl lg:text-4xl font-black mb-6">
             <span className="text-black">LA FOOD </span>
-            <span className="text-[#fc9937]">MULTIJOUEUR</span>
+            <span className="text-[#0ba0da]">MULTIJOUEUR</span>
           </h3>
           <p className="text-gray-700 text-md leading-relaxed max-w-3xl mx-auto font-weight-light">
             Chez BOKUTANI, le jeu continue... même à table. Burgers, wraps,

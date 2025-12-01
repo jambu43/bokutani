@@ -18,7 +18,7 @@ function TarifsReservations() {
             priority
           />
           {/* Additional purple tint */}
-          <div className="absolute inset-0 bg-[#fc9937]/60" />
+          <div className="absolute inset-0 bg-[#0ba0da]/60" />
         </div>
 
         {/* Content */}

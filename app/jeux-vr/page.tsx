@@ -37,7 +37,7 @@ function JeuxVr() {
               <option>Bokutani Kinshasa</option>
               
             </select>
-            <Button className="bg-[#fc9937] hover:bg-[#4B2FEF] text-white font-bold px-12 py-4 rounded-lg w-full md:w-auto">
+            <Button className="bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold px-12 py-4 rounded-lg w-full md:w-auto">
               RÉSERVER
             </Button>
           </div>

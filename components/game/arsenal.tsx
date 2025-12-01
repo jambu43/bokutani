@@ -14,8 +14,8 @@ function Arsenal() {
           <div
             key={i}
             className={`w-16 h-16 rounded-lg overflow-hidden border-2 ${
-              i === 5 ? "border-[#fc9937]" : "border-gray-700"
-            } cursor-pointer hover:border-[#fc9937] transition-colors`}
+              i === 5 ? "border-[#0ba0da]" : "border-gray-700"
+            } cursor-pointer hover:border-[#0ba0da] transition-colors`}
           >
             <img
               src={`https://cdn.eva.gg/games/after-h/weapons/9000-icon.webp`}
@@ -29,7 +29,7 @@ function Arsenal() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left - Weapon Info */}
         <div className="text-white">
-          <p className="text-[#fc9937] text-sm font-bold tracking-wide mb-2">ARME</p>
+          <p className="text-[#0ba0da] text-sm font-bold tracking-wide mb-2">ARME</p>
           <h4 className="text-5xl font-black mb-6">SPECTRE</h4>
           <p className="text-gray-300 leading-relaxed mb-8">
             Fusil d'assaut de précision avec cadence de tir élevée. Parfait pour les engagements à moyenne portée.
@@ -46,7 +46,7 @@ function Arsenal() {
               <span>85/100</span>
             </div>
             <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
-              <div className="h-full bg-[#fc9937] rounded-full" style={{ width: "85%" }} />
+              <div className="h-full bg-[#0ba0da] rounded-full" style={{ width: "85%" }} />
             </div>
           </div>
 
@@ -56,7 +56,7 @@ function Arsenal() {
               <span>75/100</span>
             </div>
             <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
-              <div className="h-full bg-[#fc9937] rounded-full" style={{ width: "75%" }} />
+              <div className="h-full bg-[#0ba0da] rounded-full" style={{ width: "75%" }} />
             </div>
           </div>
 
@@ -66,7 +66,7 @@ function Arsenal() {
               <span>90/100</span>
             </div>
             <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
-              <div className="h-full bg-[#fc9937] rounded-full" style={{ width: "90%" }} />
+              <div className="h-full bg-[#0ba0da] rounded-full" style={{ width: "90%" }} />
             </div>
           </div>
 
@@ -76,7 +76,7 @@ function Arsenal() {
               <span>80/100</span>
             </div>
             <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
-              <div className="h-full bg-[#fc9937] rounded-full" style={{ width: "80%" }} />
+              <div className="h-full bg-[#0ba0da] rounded-full" style={{ width: "80%" }} />
             </div>
           </div>
 
@@ -86,7 +86,7 @@ function Arsenal() {
               <span>70/100</span>
             </div>
             <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
-              <div className="h-full bg-[#fc9937] rounded-full" style={{ width: "70%" }} />
+              <div className="h-full bg-[#0ba0da] rounded-full" style={{ width: "70%" }} />
             </div>
           </div>
         </div>

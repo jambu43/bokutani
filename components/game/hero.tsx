@@ -7,7 +7,7 @@ function GameHero() {
     {/* Background Image with Overlay */}
     <div className="absolute inset-0">
       <img src="https://app.eva.gg/assets/after-h-battle-arena-fhd-min-BXpFo7Is.webp" alt="Space Background" className="w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#fc9937] via-[#2d1654]/80 to-black/90" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0ba0da] via-[#2d1654]/80 to-black/90" />
     </div>
 
     {/* Hero Content */}
@@ -34,7 +34,7 @@ function GameHero() {
         </svg>
       </div>
       <h1 className="text-white text-3xl md:text-4xl font-black mb-8">BOKUTANI GAME</h1>
-      <Button className="bg-white text-[#fc9937] hover:bg-white/90 font-bold text-xs px-3 py-2 rounded-full">
+      <Button className="bg-white text-[#0ba0da] hover:bg-white/90 font-bold text-xs px-3 py-2 rounded-full">
         RÉSERVER
       </Button>
     </div>
