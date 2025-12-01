@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function events() {
@@ -18,19 +19,21 @@ function events() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Anniversaire Card */}
           <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
-            <img
-              src="/gamesxx2.jpg"
-              alt="Anniversaire"
+            <Image
+              src="/events/anniversary.jpg"
+              width={500}
+              height={500}
+              alt="Experience"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
               <h5 className="text-3xl font-black mb-3 text-center">
-                ANNIVERSAIRE
+                BOKUTANI / EXPERIENCE
               </h5>
               <p className="text-gray-200 text-sm mb-6 text-center">
-                Soufflez vos bougies chez EVA pour fêter votre level up !
-              </p>
+                Pour les rencontres immersives, événements en présentiel, networking, démonstrations technologiques et expériences VR.
+                </p>
               <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
               </button>
@@ -39,19 +42,21 @@ function events() {
 
           {/* EVG / EVJF Card */}
           <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
-            <img
-              src="/gamex.jpg"
+            <Image
+              src="/events/competitions.jpg"
+              width={500}
+              height={500}
               alt="EVG / EVJF"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
               <h5 className="text-3xl font-black mb-3 text-center">
-                BOKUTANI / BKJF
+                BOKUTANI / COMPETITIONS
               </h5>
               <p className="text-gray-200 text-sm mb-6 text-center">
-                Sessions de jeu et tournées de shots : ce qui se passe chez EVA
-                reste chez EVA...
+                Sessions de jeu et tournées de shots : ce qui se passe chez BOKUTANI
+                reste chez BOKUTANI...
               </p>
               <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS
@@ -61,19 +66,20 @@ function events() {
 
           {/* Entreprises Card */}
           <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
-            <img
+            <Image
               src="/gamesxx3.jpeg"
+              width={500}
+              height={500}
               alt="Entreprises"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
               <h5 className="text-3xl font-black mb-3 text-center">
-                ENTREPRISES
+                BOKUTANI / AFTER WORK
               </h5>
               <p className="text-gray-200 text-sm mb-6 text-center">
-                Un temps pour les PowerPoints, un temps pour se défouler en
-                équipe.
+                Après le travail, place à la détente : partagez un moment convivial avec vos collègues dans une expérience VR inoubliable !
               </p>
               <button className="w-full py-3 bg-[#fc9937] hover:bg-[#fc9937] text-white font-bold rounded-lg transition-colors">
                 EN SAVOIR PLUS

@@ -65,11 +65,25 @@ function howItworks() {
             {/* Right Column - Image */}
             <div className="relative">
               <Image
-                src="/game-vr.jpg"
+                src="/howitwork/howtowork1.jpg"
+                width={500}
+                height={300}
+                alt="Players in VR Arena"
+                className="w-full h-[320px] rounded-3xl shadow-2xl"
+              />
+              <Image
+                src="/howitwork/howtowork2.jpg"
                 width={500}
                 height={500}
                 alt="Players in VR Arena"
-                className="w-full h-auto rounded-3xl shadow-2xl"
+                className="w-full h-[320px] rounded-3xl shadow-2xl mt-4"
+              />
+              <Image
+                src="/howitwork/howtowork3.jpg"
+                width={500}
+                height={300}
+                alt="Players in VR Arena"
+                className="w-full h-[320px] rounded-3xl shadow-2xl mt-4"
               />
             </div>
           </div>

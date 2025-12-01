@@ -15,7 +15,7 @@ function esportVideo() {
           </p>
 
           {/* Action Buttons */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          {/* <div className="flex flex-wrap justify-center gap-4 mb-12">
             <button className="px-4 py-2 text-sm bg-white/10 hover:bg-white/20 text-white font-bold rounded-lg transition-colors flex items-center gap-2">
               CHAÎNE TWITCH
               <svg
@@ -67,7 +67,7 @@ function esportVideo() {
                 />
               </svg>
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Video Player */}
@@ -75,7 +75,7 @@ function esportVideo() {
           <video
             className="w-full aspect-video bg-black"
             controls
-            poster="/gamesxx3.jpeg"
+            poster="/welcome.jpg"
           >
             <source src="https://cdn.eva.gg/videos/esport.webm" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos.

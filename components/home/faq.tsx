@@ -47,9 +47,7 @@ function faq() {
             OÙ PUIS-JE JOUER À Bokutani ?
           </AccordionTrigger>
           <AccordionContent className="text-gray-600 leading-relaxed pb-6">
-            Bokutani dispose de plusieurs arènes en France : Paris, Lyon, Marseille, Toulouse, Bordeaux, Lille, Nantes,
-            Strasbourg, Dijon et Amiens. Chaque salle offre la même expérience immersive de haute qualité avec nos
-            jeux exclusifs. Consultez notre page de localisation pour trouver l'arène la plus proche de chez vous.
+            Bokutani se situe au 3eme niveau Galleria Mall 9, Avenue Colonel Lukusa 6133, Kinshasa-Gombe <br /> Réf: Arrêt Chancellerie & Premier Shopping Kinshasa-Gombe.
           </AccordionContent>
         </AccordionItem>
 
@@ -59,9 +57,9 @@ function faq() {
             COMMENT SE DÉROULE UNE PARTIE EN RÉALITÉ VIRTUELLE ?
           </AccordionTrigger>
           <AccordionContent className="text-gray-600 leading-relaxed pb-6">
-            Une session Bokutani dure environ 1h30 au total. Après votre arrivée, vous recevez un briefing de 10 minutes
+            Une session Bokutani dure environ 10 minutes au total. Après votre arrivée, vous recevez un briefing de 5 minutes
             pour comprendre les règles et l'équipement. Ensuite, vous enfilez votre casque VR et votre équipement,
-            puis vous entrez dans l'arène pour 30-45 minutes de jeu intense. Après la partie, vous pouvez vous
+            puis vous entrez dans l'arène pour 05-10 minutes de jeu intense. Après la partie, vous pouvez vous
             détendre au bar et revivre vos meilleurs moments avec vos coéquipiers.
           </AccordionContent>
         </AccordionItem>
