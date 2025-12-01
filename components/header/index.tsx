@@ -40,7 +40,7 @@ const index = () => {
 
               {/* Find My Room Button */}
               <Link 
-                href="/reservation" 
+                href="/reserver" 
                 onClick={() => setIsMenuOpen(false)}
                 className="w-full z-10 bg-[#0ba0da] hover:bg-[#0ba0da] text-white font-bold text-lg py-4 px-6 rounded-lg mb-8 transition-colors">
                 RÉSERVER

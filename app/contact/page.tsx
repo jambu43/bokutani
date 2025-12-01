@@ -33,7 +33,7 @@ export default function Contact() {
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-sm p-8">
           <p className="text-gray-700 mb-8">
             Pour une demande de privatisation ou d'organisation d'événement, nous vous invitons à cliquer{" "}
-            <Link href="/reservation" className="text-[#0ba0da] underline hover:opacity-80">
+            <Link href="/reserver" className="text-[#0ba0da] underline hover:opacity-80">
               ici
             </Link>
             .

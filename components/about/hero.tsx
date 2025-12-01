@@ -23,7 +23,7 @@ function hero() {
           <br />
           <span className="text-white">NOUS</span>
         </h1>
-        <Link href="/reservation" className="px-8 py-4 bg-white text-purple-500 text-lg hover:bg-gray-100 transition-colors rounded-xl">
+        <Link href="/reserver" className="px-8 py-4 bg-white text-purple-500 text-lg hover:bg-gray-100 transition-colors rounded-xl">
           RÉSERVER MAINTENANT
         </Link>
       </div>
