@@ -27,8 +27,8 @@ function Hero() {
           playsInline
           preload="auto"
         >
-          <source src="https://cdn.eva.gg/videos/eva-bg-video.mp4" type="video/mp4" />
-          <source src="https://cdn.eva.gg/videos/eva-bg-video.webm" type="video/webm" />
+          <source src="/bokutani-video.mp4" type="video/mp4" />
+          <source src="/bokutani-video.mp4" type="video/webm" />
         </video>
         {/* Gradient overlay */}
         <div 
