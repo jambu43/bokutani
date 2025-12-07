@@ -77,7 +77,7 @@ function esportVideo() {
             controls
             poster="/welcome.jpg"
           >
-            <source src="https://cdn.eva.gg/videos/esport.webm" type="video/mp4" />
+            <source src="/bokutani-video.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos.
           </video>
         </div>
