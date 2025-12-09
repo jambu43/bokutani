@@ -1,11 +1,21 @@
+'use client';
+
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
+import { StaggerAnimation, StaggerItem } from '@/components/ui/scroll-animation';
 
 function events() {
   return (
     <section className="bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
           <h4 className="text-3xl md:text-4xl font-black mb-6">
             <span className="text-black">CÉLÉBREZ </span>
             <span className="text-[#0ba0da]">L'OCCASION</span>
@@ -14,11 +24,16 @@ function events() {
             Une arène rien que pour vous. Privatisez Bokutani et transformez votre
             événement en moment inoubliable.
           </p>
-        </div>
+        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <StaggerAnimation className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Anniversaire Card */}
-          <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
+          <StaggerItem direction="scale">
+            <motion.div 
+              whileHover={{ scale: 1.05, y: -10 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl"
+            >
             <Image
               src="/events/anniversary.jpg"
               width={500}
@@ -38,10 +53,16 @@ function events() {
                 EN SAVOIR PLUS
               </button>
             </div>
-          </div>
+            </motion.div>
+          </StaggerItem>
 
           {/* EVG / EVJF Card */}
-          <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
+          <StaggerItem direction="scale">
+            <motion.div 
+              whileHover={{ scale: 1.05, y: -10 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl"
+            >
             <Image
               src="/events/competitions.jpg"
               width={500}
@@ -62,10 +83,16 @@ function events() {
                 EN SAVOIR PLUS
               </button>
             </div>
-          </div>
+            </motion.div>
+          </StaggerItem>
 
           {/* Entreprises Card */}
-          <div className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl">
+          <StaggerItem direction="scale">
+            <motion.div 
+              whileHover={{ scale: 1.05, y: -10 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-xl"
+            >
             <Image
               src="/gamesxx3.jpeg"
               width={500}
@@ -85,8 +112,9 @@ function events() {
                 EN SAVOIR PLUS
               </button>
             </div>
-          </div>
-        </div>
+            </motion.div>
+          </StaggerItem>
+        </StaggerAnimation>
       </div>
     </section>
   );

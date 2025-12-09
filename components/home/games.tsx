@@ -1,27 +1,51 @@
+'use client';
+
 import React from 'react'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+import { StaggerAnimation, StaggerItem } from '@/components/ui/scroll-animation'
+
 function Games() {
   return (
     <section className="bg-white px-4">
         <div className="max-w-7xl mx-auto">
-          <h4 className="text-2xl md:text-l lg:text-l font-black text-center mb-16 text-black">NOS JEUX VR EXCLUSIFS</h4>
+          <motion.h4 
+            initial={{ opacity: 0, y: -30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-2xl md:text-l lg:text-l font-black text-center mb-16 text-black"
+          >
+            NOS JEUX VR EXCLUSIFS
+          </motion.h4>
 
-          <div className="relative flex items-center justify-center gap-8">
+          <StaggerAnimation className="relative flex items-center justify-center gap-8">
             {/* Left Decorative Card */}
-            <div className="hidden lg:block w-64 h-80 -rotate-12 opacity-90 hover:opacity-100 transition-opacity">
-              <Image
-                src="/gamesxx2.jpg"
-                alt="VR Player"
-                width={500}
-                height={500}
-                className="w-full h-full object-cover rounded-3xl shadow-2xl"
-              />
-            </div>
+            <StaggerItem direction="left" className="hidden lg:block w-64 h-80">
+              <motion.div
+                whileHover={{ scale: 1.05, rotate: -8 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="-rotate-12 opacity-90 hover:opacity-100 transition-opacity"
+              >
+                <Image
+                  src="/gamesxx2.jpg"
+                  alt="VR Player"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover rounded-3xl shadow-2xl"
+                />
+              </motion.div>
+            </StaggerItem>
 
             {/* Center Cards Container */}
             <div className="flex flex-col md:flex-row gap-6 max-w-4xl justify-center">
               {/* After-H Battle Arena Card */}
-              <div className="relative rounded-xl overflow-hidden shadow-2xl w-full md:w-64 lg:w-85 min-h-[500px]">
+              <StaggerItem direction="scale" className="relative rounded-xl overflow-hidden shadow-2xl w-full md:w-64 lg:w-85 min-h-[500px]">
+                <motion.div
+                  whileHover={{ scale: 1.03, y: -10 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="relative w-full h-full"
+                >
                 {/* Vidéo de fond */}
                 <video
                   className="absolute inset-0 w-full h-full object-cover"
@@ -52,10 +76,16 @@ function Games() {
                     </button>
                   </div>
                 </div>
-              </div>
+                </motion.div>
+              </StaggerItem>
 
               {/* Moon of the Dead Card */}
-              <div className="relative rounded-xl overflow-hidden shadow-2xl w-full md:w-64 lg:w-85 min-h-[500px]">
+              <StaggerItem direction="scale" className="relative rounded-xl overflow-hidden shadow-2xl w-full md:w-64 lg:w-85 min-h-[500px]">
+                <motion.div
+                  whileHover={{ scale: 1.03, y: -10 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="relative w-full h-full"
+                >
                 {/* Image de fond */}
                 <video
                   className="absolute inset-0 w-full h-full object-cover"
@@ -86,20 +116,27 @@ function Games() {
                     </button>
                   </div>
                 </div>
-              </div>
+                </motion.div>
+              </StaggerItem>
             </div>
 
             {/* Right Decorative Card */}
-            <div className="hidden lg:block w-64 h-80 rotate-12 opacity-90 hover:opacity-100 transition-opacity">
-              <Image
-                src="/ZAVR_04_01_Screenshot_07_4k1-3-scaled.webp"
-                alt="VR Player Action"
-                width={500}
-                height={500}
-                className="w-full h-full object-cover rounded-3xl shadow-2xl"
-              />
-            </div>
-          </div>
+            <StaggerItem direction="right" className="hidden lg:block w-64 h-80">
+              <motion.div
+                whileHover={{ scale: 1.05, rotate: 8 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="rotate-12 opacity-90 hover:opacity-100 transition-opacity"
+              >
+                <Image
+                  src="/ZAVR_04_01_Screenshot_07_4k1-3-scaled.webp"
+                  alt="VR Player Action"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover rounded-3xl shadow-2xl"
+                />
+              </motion.div>
+            </StaggerItem>
+          </StaggerAnimation>
         </div>
       </section>
   )

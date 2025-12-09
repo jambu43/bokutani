@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -41,14 +42,32 @@ function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold text-white mb-8 leading-tight font-gotham">
+        <motion.h1 
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+          className="text-2xl md:text-3xl lg:text-5xl font-extrabold text-white mb-8 leading-tight font-gotham"
+        >
           REPOUSSEZ VOS LIMITES
           <br />
-          <span className="text-white">ENTREZ DANS L'ARÈNE</span>
-        </h1>
-        <Link href="/reserver" className="px-8 py-4 bg-white text-purple-500 text-lg hover:bg-gray-100 transition-colors rounded-xl">
-          RÉSERVER MAINTENANT
-        </Link>
+          <motion.span 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="text-white"
+          >
+            ENTREZ DANS L'ARÈNE
+          </motion.span>
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+        >
+          <Link href="/reserver" className="px-8 py-4 bg-white text-purple-500 text-lg hover:bg-gray-100 transition-colors rounded-xl inline-block">
+            RÉSERVER MAINTENANT
+          </Link>
+        </motion.div>
       </div>
     </section>
   );

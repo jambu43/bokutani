@@ -1,11 +1,20 @@
+'use client';
+
 import React from "react";
+import { motion } from "framer-motion";
 
 function esportVideo() {
   return (
     <section className="bg-[#2A2A2E] py-20 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-12">
+        <motion.div 
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-12"
+        >
           <h4 className="text-3xl md:text-4xl font-black mb-6">
             <span className="text-[#0ba0da]">LE FUTUR DU</span> {" "}
             <span className="text-white">VR EN RDC</span>
@@ -68,10 +77,17 @@ function esportVideo() {
               </svg>
             </button>
           </div> */}
-        </div>
+        </motion.div>
 
         {/* Video Player */}
-        <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          whileHover={{ scale: 1.02 }}
+          className="relative rounded-2xl overflow-hidden shadow-2xl"
+        >
           <video
             className="w-full aspect-video bg-black"
             controls
@@ -80,7 +96,7 @@ function esportVideo() {
         <source src="/bokutani-video.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos.
           </video>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

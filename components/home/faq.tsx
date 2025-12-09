@@ -1,23 +1,35 @@
+'use client';
+
 import React from 'react'
+import { motion } from 'framer-motion'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { StaggerAnimation, StaggerItem } from '@/components/ui/scroll-animation';
 
 function faq() {
   return (
     <section className="bg-gray-50 py-20 px-4">
       <div className="max-w-4xl mx-auto">
       {/* Header */}
-      <div className="text-center mb-12">
+      <motion.div 
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="text-center mb-12"
+      >
         <h4 className="text-6xl md:text-7xl font-black text-[#0ba0da] mb-6">FAQ</h4>
         <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
           Tout ce que vous devez savoir avant d'entrer dans l'arène ! Retrouvez ici les réponses à vos questions
           pour profiter pleinement de l'expérience Bokutani.
         </p>
-      </div>
+      </motion.div>
 
       {/* FAQ Accordion */}
-      <Accordion type="single" collapsible className="space-y-4">
-        {/* Question 1 */}
-        <AccordionItem value="item-1" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
+      <StaggerAnimation>
+        <Accordion type="single" collapsible className="space-y-4">
+          {/* Question 1 */}
+          <StaggerItem direction="up">
+            <AccordionItem value="item-1" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
           <AccordionTrigger className="text-xl font-black text-black hover:no-underline py-6">
             C'EST QUOI Bokutani ?
           </AccordionTrigger>
@@ -27,10 +39,12 @@ function faq() {
             première personne, en pleine immersion. Accessible à tous, pensé pour le fun comme pour la perf, Bokutani
             fait passer le gaming dans une autre dimension.
           </AccordionContent>
-        </AccordionItem>
+            </AccordionItem>
+          </StaggerItem>
 
-        {/* Question 2 */}
-        <AccordionItem value="item-2" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
+          {/* Question 2 */}
+          <StaggerItem direction="up">
+            <AccordionItem value="item-2" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
           <AccordionTrigger className="text-xl font-black text-black hover:no-underline py-6">
             QUELLES SONT LES CONDITIONS POUR JOUER À Bokutani ?
           </AccordionTrigger>
@@ -39,20 +53,24 @@ function faq() {
             équipes vous accompagnent pour une prise en main rapide. Il est recommandé de porter des vêtements
             confortables et des chaussures de sport fermées pour profiter pleinement de l'expérience.
           </AccordionContent>
-        </AccordionItem>
+            </AccordionItem>
+          </StaggerItem>
 
-        {/* Question 3 */}
-        <AccordionItem value="item-3" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
+          {/* Question 3 */}
+          <StaggerItem direction="up">
+            <AccordionItem value="item-3" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
           <AccordionTrigger className="text-xl font-black text-black hover:no-underline py-6">
             OÙ PUIS-JE JOUER À Bokutani ?
           </AccordionTrigger>
           <AccordionContent className="text-gray-600 leading-relaxed pb-6">
             Bokutani se situe au 3eme niveau Galleria Mall 9, Avenue Colonel Lukusa 6133, Kinshasa-Gombe <br /> Réf: Arrêt Chancellerie & Premier Shopping Kinshasa-Gombe.
           </AccordionContent>
-        </AccordionItem>
+            </AccordionItem>
+          </StaggerItem>
 
-        {/* Question 4 */}
-        <AccordionItem value="item-4" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
+          {/* Question 4 */}
+          <StaggerItem direction="up">
+            <AccordionItem value="item-4" className="bg-white border border-gray-200 rounded-2xl px-8 shadow-sm">
           <AccordionTrigger className="text-xl font-black text-black hover:no-underline py-6">
             COMMENT SE DÉROULE UNE PARTIE EN RÉALITÉ VIRTUELLE ?
           </AccordionTrigger>
@@ -62,8 +80,10 @@ function faq() {
             puis vous entrez dans l'arène pour 05-10 minutes de jeu intense. Après la partie, vous pouvez vous
             détendre au bar et revivre vos meilleurs moments avec vos coéquipiers.
           </AccordionContent>
-        </AccordionItem>
-      </Accordion>
+            </AccordionItem>
+          </StaggerItem>
+        </Accordion>
+      </StaggerAnimation>
       </div>
     </section>
   );

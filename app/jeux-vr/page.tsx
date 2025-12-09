@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import GameHero from '@/components/game/hero'
@@ -5,6 +7,7 @@ import Description from '@/components/game/description'
 import Modes from '@/components/game/modes'
 import Arsenal from '@/components/game/arsenal'
 import Maps from '@/components/game/map'
+import { ScrollAnimation } from '@/components/ui/scroll-animation'
 
 // Icon components
 const Menu = ({ className }: { className?: string }) => (
@@ -23,26 +26,36 @@ function JeuxVr() {
     <div className="min-h-screen bg-black">
 
     <GameHero />
-    <Description />
-    <Modes />
-    <Arsenal />
-    <Maps />
+    <ScrollAnimation direction="up" delay={0.1}>
+      <Description />
+    </ScrollAnimation>
+    <ScrollAnimation direction="up" delay={0.2}>
+      <Modes />
+    </ScrollAnimation>
+    <ScrollAnimation direction="up" delay={0.1}>
+      <Arsenal />
+    </ScrollAnimation>
+    <ScrollAnimation direction="up" delay={0.2}>
+      <Maps />
+    </ScrollAnimation>
 
       {/* Footer CTA Section */}
-      <section className="relative py-16 px-4 bg-black border-t border-gray-800">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-            <select className="bg-gray-900 text-white border border-gray-700 rounded-lg px-6 py-4 font-bold w-full md:w-auto">
-              <option>CHOISIR UNE ARÈNE</option>
-              <option>Bokutani Kinshasa</option>
-              
-            </select>
-            <Button className="bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold px-12 py-4 rounded-lg w-full md:w-auto">
-              RÉSERVER
-            </Button>
+      <ScrollAnimation direction="up" delay={0.1}>
+        <section className="relative py-16 px-4 bg-black border-t border-gray-800">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+              <select className="bg-gray-900 text-white border border-gray-700 rounded-lg px-6 py-4 font-bold w-full md:w-auto">
+                <option>CHOISIR UNE ARÈNE</option>
+                <option>Bokutani Kinshasa</option>
+                
+              </select>
+              <Button className="bg-[#0ba0da] hover:bg-[#4B2FEF] text-white font-bold px-12 py-4 rounded-lg w-full md:w-auto">
+                RÉSERVER
+              </Button>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollAnimation>
     </div>
   )
 }
