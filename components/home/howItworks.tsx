@@ -43,7 +43,7 @@ function howItworks() {
                     <div className="text-[#0ba0da] font-black text-sm mb-2">ÉTAPE 1</div>
                     <h5 className="text-2xl font-black text-black mb-3">FORMEZ VOTRE SQUAD</h5>
                     <p className="text-gray-600 leading-relaxed">
-                      Jusqu'à 10 joueurs par arène. Si vous êtes moins nombreux, d'autres joueurs de votre niveau pourront
+                      Jusqu'à 4 joueurs par arène. Si vous êtes moins nombreux, d'autres joueurs de votre niveau pourront
                       vous rejoindre.
                     </p>
                   </motion.div>

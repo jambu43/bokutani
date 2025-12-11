@@ -191,7 +191,7 @@ function modes() {
           <div className="bg-black rounded-2xl overflow-hidden border border-gray-800 hover:border-[#0ba0da] transition-colors">
             <Image src="/games/vR-super-360-fligh.jpg" alt="Team Deathmatch" className="w-full object-cover" width={500} height={500} />
             <div className="p-6">
-              <h4 className="text-white text-xl font-black mb-3">VR Super 360 Fligh</h4>
+              <h4 className="text-white text-xl font-black mb-3">VR Super 360 flight</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
               Simulation de vol acrobatique avec mouvements 360°, idéal pour sensations fortes aériennes.
               </p>
